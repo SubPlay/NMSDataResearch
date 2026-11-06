@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="GcStatusMessageDefinitions">
+  <Property name="Messages">
+    <Property name="Messages" value="GcStatusMessageDefinition">
+      <Property name="Id" value="CHEF_DEBUG" />
+      <Property name="Message" value="" />
+      <Property name="AddPlayerNamePrefix" value="false" />
+      <Property name="AddPetNamePrefix" value="false" />
+      <Property name="AddFriendlyDronePrefix" value="false" />
+      <Property name="CustomPrefixLocID" value="" />
+      <Property name="IncludePlayerName" value="false" />
+      <Property name="ReplicateTo" value="None" />
+      <Property name="PostLocally" value="true" />
+      <Property name="Distance" value="0.0" />
+      <Property name="DisplayDurationMultiplier" value="0.1" />
+      <Property name="OnlyInMultiplayer" value="false" />
+      <Property name="OnlyOnFireteam" value="false" />
+      <Property name="AllowedInGameTable" value="false" />
+      <Property name="MissionMarkup" value="GcStatusMessageMissionMarkup">
+        <Property name="MissionMarkup" value="None" />
+      </Property>
+    </Property>
+    <Property name="Messages" value="GcStatusMessageDefinition">
+      <Property name="Id" value="CHEF_CHAT" />
+      <Property name="Message" value="" />
+      <Property name="AddPlayerNamePrefix" value="false" />
+      <Property name="AddPetNamePrefix" value="false" />
+      <Property name="AddFriendlyDronePrefix" value="false" />
+      <Property name="CustomPrefixLocID" value="" />
+      <Property name="IncludePlayerName" value="false" />
+      <Property name="ReplicateTo" value="None" />
+      <Property name="PostLocally" value="true" />
+      <Property name="Distance" value="0.0" />
+      <Property name="DisplayDurationMultiplier" value="0.35" />
+      <Property name="OnlyInMultiplayer" value="false" />
+      <Property name="OnlyOnFireteam" value="false" />
+      <Property name="AllowedInGameTable" value="false" />
+      <Property name="MissionMarkup" value="GcStatusMessageMissionMarkup">
+        <Property name="MissionMarkup" value="None" />
+      </Property>
+    </Property>
+  </Property>
+</Data>

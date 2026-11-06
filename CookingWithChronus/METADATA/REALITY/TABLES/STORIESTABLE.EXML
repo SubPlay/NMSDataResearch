@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="GcStoriesTable">
+  <Property name="Table">
+    <Property name="Diplomats" value="GcStoryCategory">
+      <Property name="Pages">
+        <Property name="Pages" value="GcStoryPage">
+          <Property name="InteractionType" value="GcInteractionType">
+            <Property name="InteractionType" value="ExoticExtra6" />
+          </Property>
+          <Property name="Stat" value="CHEF_LORE" />
+          <Property name="StatIsBitmask" value="false" />
+          <Property name="Icon" value="TkTextureResource">
+            <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/WIKI/WIKI.COOKING.ON.DDS" />
+            <Property name="ResHandle" value="GcResource">
+              <Property name="ResourceID" value="0" />
+            </Property>
+          </Property>
+          <Property name="ID" value="UI_ALCH_CHEF_TITLE" />
+          <Property name="Entries">
+            <Property name="Entries" value="GcStoryEntry">
+              <Property name="Title" value="UI_ALCH_CHEF_0_TITLE" />
+              <Property name="Entry" value="UI_ALCH_CHEF_0_ENTRY" />
+              <Property name="BranchedEntries" />
+              <Property name="AlienText" value="" />
+              <Property name="AutoPrefixWithAlienText" value="false" />
+              <Property name="AlienTextForceRace" value="GcAlienRace">
+                <Property name="AlienRace" value="None" />
+              </Property>
+              <Property name="CheckForPlatformSpecificText" value="false" />
+              <Property name="NarrationAudio" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+              <Property name="NarrationAudioStop" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+            </Property>
+            <Property name="Entries" value="GcStoryEntry">
+              <Property name="Title" value="" />
+              <Property name="Entry" value="UI_ALCH_CHEF_1_ENTRY" />
+              <Property name="BranchedEntries" />
+              <Property name="AlienText" value="" />
+              <Property name="AutoPrefixWithAlienText" value="false" />
+              <Property name="AlienTextForceRace" value="GcAlienRace">
+                <Property name="AlienRace" value="None" />
+              </Property>
+              <Property name="CheckForPlatformSpecificText" value="false" />
+              <Property name="NarrationAudio" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+              <Property name="NarrationAudioStop" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+            </Property>
+            <Property name="Entries" value="GcStoryEntry">
+              <Property name="Title" value="" />
+              <Property name="Entry" value="UI_ALCH_CHEF_2_ENTRY" />
+              <Property name="BranchedEntries" />
+              <Property name="AlienText" value="" />
+              <Property name="AutoPrefixWithAlienText" value="false" />
+              <Property name="AlienTextForceRace" value="GcAlienRace">
+                <Property name="AlienRace" value="None" />
+              </Property>
+              <Property name="CheckForPlatformSpecificText" value="false" />
+              <Property name="NarrationAudio" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+              <Property name="NarrationAudioStop" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+            </Property>
+            <Property name="Entries" value="GcStoryEntry">
+              <Property name="Title" value="" />
+              <Property name="Entry" value="UI_ALCH_CHEF_3_ENTRY" />
+              <Property name="BranchedEntries" />
+              <Property name="AlienText" value="" />
+              <Property name="AutoPrefixWithAlienText" value="false" />
+              <Property name="AlienTextForceRace" value="GcAlienRace">
+                <Property name="AlienRace" value="None" />
+              </Property>
+              <Property name="CheckForPlatformSpecificText" value="false" />
+              <Property name="NarrationAudio" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+              <Property name="NarrationAudioStop" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+            </Property>
+            <Property name="Entries" value="GcStoryEntry">
+              <Property name="Title" value="" />
+              <Property name="Entry" value="UI_ALCH_CHEF_4_ENTRY" />
+              <Property name="BranchedEntries" />
+              <Property name="AlienText" value="" />
+              <Property name="AutoPrefixWithAlienText" value="false" />
+              <Property name="AlienTextForceRace" value="GcAlienRace">
+                <Property name="AlienRace" value="None" />
+              </Property>
+              <Property name="CheckForPlatformSpecificText" value="false" />
+              <Property name="NarrationAudio" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+              <Property name="NarrationAudioStop" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+            </Property>
+            <Property name="Entries" value="GcStoryEntry">
+              <Property name="Title" value="UI_ALCH_CHEF_5_TITLE" />
+              <Property name="Entry" value="UI_ALCH_CHEF_5_ENTRY" />
+              <Property name="BranchedEntries" />
+              <Property name="AlienText" value="" />
+              <Property name="AutoPrefixWithAlienText" value="false" />
+              <Property name="AlienTextForceRace" value="GcAlienRace">
+                <Property name="AlienRace" value="None" />
+              </Property>
+              <Property name="CheckForPlatformSpecificText" value="false" />
+              <Property name="NarrationAudio" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+              <Property name="NarrationAudioStop" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+            </Property>
+            <Property name="Entries" value="GcStoryEntry">
+              <Property name="Title" value="" />
+              <Property name="Entry" value="UI_ALCH_CHEF_6_ENTRY" />
+              <Property name="BranchedEntries" />
+              <Property name="AlienText" value="" />
+              <Property name="AutoPrefixWithAlienText" value="false" />
+              <Property name="AlienTextForceRace" value="GcAlienRace">
+                <Property name="AlienRace" value="None" />
+              </Property>
+              <Property name="CheckForPlatformSpecificText" value="false" />
+              <Property name="NarrationAudio" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+              <Property name="NarrationAudioStop" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+            </Property>
+            <Property name="Entries" value="GcStoryEntry">
+              <Property name="Title" value="UI_ALCH_CHEF_7_TITLE" />
+              <Property name="Entry" value="UI_ALCH_CHEF_7_ENTRY" />
+              <Property name="BranchedEntries" />
+              <Property name="AlienText" value="" />
+              <Property name="AutoPrefixWithAlienText" value="false" />
+              <Property name="AlienTextForceRace" value="GcAlienRace">
+                <Property name="AlienRace" value="None" />
+              </Property>
+              <Property name="CheckForPlatformSpecificText" value="false" />
+              <Property name="NarrationAudio" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+              <Property name="NarrationAudioStop" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+            </Property>
+            <Property name="Entries" value="GcStoryEntry">
+              <Property name="Title" value="" />
+              <Property name="Entry" value="UI_ALCH_CHEF_8_ENTRY" />
+              <Property name="BranchedEntries" />
+              <Property name="AlienText" value="" />
+              <Property name="AutoPrefixWithAlienText" value="false" />
+              <Property name="AlienTextForceRace" value="GcAlienRace">
+                <Property name="AlienRace" value="None" />
+              </Property>
+              <Property name="CheckForPlatformSpecificText" value="false" />
+              <Property name="NarrationAudio" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+              <Property name="NarrationAudioStop" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+            </Property>
+            <Property name="Entries" value="GcStoryEntry">
+              <Property name="Title" value="UI_ALCH_CHEF_9_TITLE" />
+              <Property name="Entry" value="UI_ALCH_CHEF_9_ENTRY" />
+              <Property name="BranchedEntries" />
+              <Property name="AlienText" value="" />
+              <Property name="AutoPrefixWithAlienText" value="false" />
+              <Property name="AlienTextForceRace" value="GcAlienRace">
+                <Property name="AlienRace" value="None" />
+              </Property>
+              <Property name="CheckForPlatformSpecificText" value="false" />
+              <Property name="NarrationAudio" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+              <Property name="NarrationAudioStop" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+            </Property>
+            <Property name="Entries" value="GcStoryEntry">
+              <Property name="Title" value="" />
+              <Property name="Entry" value="UI_ALCH_CHEF_10_ENTRY" />
+              <Property name="BranchedEntries" />
+              <Property name="AlienText" value="" />
+              <Property name="AutoPrefixWithAlienText" value="false" />
+              <Property name="AlienTextForceRace" value="GcAlienRace">
+                <Property name="AlienRace" value="None" />
+              </Property>
+              <Property name="CheckForPlatformSpecificText" value="false" />
+              <Property name="NarrationAudio" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+              <Property name="NarrationAudioStop" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+            </Property>
+            <Property name="Entries" value="GcStoryEntry">
+              <Property name="Title" value="" />
+              <Property name="Entry" value="UI_ALCH_CHEF_11_ENTRY" />
+              <Property name="BranchedEntries" />
+              <Property name="AlienText" value="" />
+              <Property name="AutoPrefixWithAlienText" value="false" />
+              <Property name="AlienTextForceRace" value="GcAlienRace">
+                <Property name="AlienRace" value="None" />
+              </Property>
+              <Property name="CheckForPlatformSpecificText" value="false" />
+              <Property name="NarrationAudio" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+              <Property name="NarrationAudioStop" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+            </Property>
+            <Property name="Entries" value="GcStoryEntry">
+              <Property name="Title" value="UI_ALCH_CHEF_12_TITLE" />
+              <Property name="Entry" value="UI_ALCH_CHEF_12_ENTRY" />
+              <Property name="BranchedEntries" />
+              <Property name="AlienText" value="" />
+              <Property name="AutoPrefixWithAlienText" value="false" />
+              <Property name="AlienTextForceRace" value="GcAlienRace">
+                <Property name="AlienRace" value="None" />
+              </Property>
+              <Property name="CheckForPlatformSpecificText" value="false" />
+              <Property name="NarrationAudio" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+              <Property name="NarrationAudioStop" value="GcAudioWwiseEvents">
+                <Property name="AkEvent" value="INVALID_EVENT" />
+              </Property>
+            </Property>
+          </Property>
+          <Property name="UseEntryPaging" value="false" />
+          <Property name="UseGridType" value="false" />
+          <Property name="WikiGridType" value="GcWikiTopicType">
+            <Property name="WikiTopicType" value="Substances" />
+          </Property>
+        </Property>
+      </Property>
+    </Property>
+  </Property>
+</Data>

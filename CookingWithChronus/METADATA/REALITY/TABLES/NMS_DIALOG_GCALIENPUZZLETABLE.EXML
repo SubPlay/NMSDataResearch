@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="GcAlienPuzzleTable">
+  <Property name="Table">
+    <Property name="Table" value="GcAlienPuzzleEntry" _id="EXOTIC_CHEF">
+      <Property name="Options">
+        <Property name="Options" value="GcAlienPuzzleOption" _index="1">
+          <Property name="MarkInteractionComplete" value="true" />
+        </Property>
+        <Property name="Options" value="GcAlienPuzzleOption" _index="2">
+          <Property name="MarkInteractionComplete" value="true" />
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcAlienPuzzleEntry" _id="?CHEF_JUDGE1">
+      <Property name="Options">
+        <Property name="Options" value="GcAlienPuzzleOption" _index="0">
+          <Property name="KeepOpen" value="true" />
+          <Property name="NextInteraction" value="CHEF_JUDGE1" />
+        </Property>
+        <Property name="Options" value="GcAlienPuzzleOption" _index="1">
+          <Property name="KeepOpen" value="true" />
+          <Property name="NextInteraction" value="CHEF_JUDGE1" />
+        </Property>
+        <Property name="Options" value="GcAlienPuzzleOption" _index="2">
+          <Property name="KeepOpen" value="true" />
+          <Property name="NextInteraction" value="CHEF_JUDGE1" />
+        </Property>
+        <Property name="Options" value="GcAlienPuzzleOption" _index="3">
+          <Property name="KeepOpen" value="false" />
+          <Property name="MarkInteractionComplete" value="true" />
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcAlienPuzzleEntry" _id="?CHEF_JUDGE2">
+      <Property name="Options">
+        <Property name="Options" value="GcAlienPuzzleOption" _index="0">
+          <Property name="KeepOpen" value="true" />
+          <Property name="NextInteraction" value="CHEF_JUDGE2" />
+        </Property>
+        <Property name="Options" value="GcAlienPuzzleOption" _index="1">
+          <Property name="KeepOpen" value="true" />
+          <Property name="NextInteraction" value="CHEF_JUDGE2" />
+        </Property>
+        <Property name="Options" value="GcAlienPuzzleOption" _index="2">
+          <Property name="KeepOpen" value="true" />
+          <Property name="NextInteraction" value="CHEF_JUDGE2" />
+        </Property>
+        <Property name="Options" value="GcAlienPuzzleOption" _index="3">
+          <Property name="KeepOpen" value="false" />
+          <Property name="MarkInteractionComplete" value="true" />
+        </Property>
+      </Property>
+    </Property>
+    <Property name="Table" value="GcAlienPuzzleEntry" _id="?CHEF_JUDGE3">
+      <Property name="Options">
+        <Property name="Options" value="GcAlienPuzzleOption" _index="0">
+          <Property name="KeepOpen" value="true" />
+          <Property name="NextInteraction" value="CHEF_JUDGE3" />
+        </Property>
+        <Property name="Options" value="GcAlienPuzzleOption" _index="1">
+          <Property name="KeepOpen" value="true" />
+          <Property name="NextInteraction" value="CHEF_JUDGE3" />
+        </Property>
+        <Property name="Options" value="GcAlienPuzzleOption" _index="2">
+          <Property name="KeepOpen" value="true" />
+          <Property name="NextInteraction" value="CHEF_JUDGE3" />
+        </Property>
+        <Property name="Options" value="GcAlienPuzzleOption" _index="3">
+          <Property name="KeepOpen" value="false" />
+          <Property name="MarkInteractionComplete" value="true" />
+        </Property>
+      </Property>
+    </Property>
+  </Property>
+</Data>

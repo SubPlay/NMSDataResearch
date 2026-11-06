@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="GcRewardTable">
+  <Property name="GenericTable">
+    <Property name="GenericTable" value="GcGenericRewardTableEntry">
+      <Property name="Id" value="R_CHEF_RESET" />
+      <Property name="List" value="GcRewardTableItemList">
+        <Property name="RewardChoice" value="GiveAll" />
+        <Property name="OverrideZeroSeed" value="false" />
+        <Property name="UseInventoryChoiceOverride" value="false" />
+        <Property name="IncrementStat" value="" />
+        <Property name="List">
+          <Property name="List" value="GcRewardTableItem">
+            <Property name="PercentageChance" value="100.0" />
+            <Property name="LabelID" value="" />
+            <Property name="Reward" value="GcRewardMissionSeeded">
+              <Property name="GcRewardMissionSeeded">
+                <Property name="Mission" value="ALCH_CHEF_RESET" />
+                <Property name="MissionNoGroundCombat" value="" />
+                <Property name="MissionNoSpaceCombat" value="" />
+                <Property name="InheritActiveMultiplayerMissionSeed" value="false" />
+                <Property name="SelectMissionAsLocalMissionBoard" value="false" />
+                <Property name="ForceUseConversationSeed" value="false" />
+              </Property>
+            </Property>
+          </Property>
+        </Property>
+      </Property>
+    </Property>
+    <Property name="GenericTable" value="GcGenericRewardTableEntry">
+      <Property name="Id" value="R_CHEF_VISIT" />
+      <Property name="List" value="GcRewardTableItemList">
+        <Property name="RewardChoice" value="GiveAll" />
+        <Property name="OverrideZeroSeed" value="false" />
+        <Property name="UseInventoryChoiceOverride" value="false" />
+        <Property name="IncrementStat" value="" />
+        <Property name="List">
+          <Property name="List" value="GcRewardTableItem">
+            <Property name="PercentageChance" value="100.0" />
+            <Property name="LabelID" value="" />
+            <Property name="Reward" value="GcRewardModifyStat">
+              <Property name="GcRewardModifyStat">
+                <Property name="Stat" value="CHEF_CDH" />
+                <Property name="OtherStat" value="" />
+                <Property name="Amount" value="1" />
+                <Property name="UseOtherStat" value="false" />
+                <Property name="ModifyType" value="GcStatModifyType">
+                  <Property name="ModifyType" value="Set" />
+                </Property>
+                <Property name="CanSetToValueLowerThanCurrent" value="true" />
+              </Property>
+            </Property>
+          </Property>
+        </Property>
+      </Property>
+    </Property>
+    <Property name="GenericTable" value="GcGenericRewardTableEntry">
+      <Property name="Id" value="R_CHEF_J_WAIT" />
+      <Property name="List" value="GcRewardTableItemList">
+        <Property name="RewardChoice" value="GiveAll" />
+        <Property name="OverrideZeroSeed" value="false" />
+        <Property name="UseInventoryChoiceOverride" value="false" />
+        <Property name="IncrementStat" value="" />
+        <Property name="List">
+          <Property name="List" value="GcRewardTableItem">
+            <Property name="PercentageChance" value="100.0" />
+            <Property name="LabelID" value="" />
+            <Property name="Reward" value="GcRewardModifyStat">
+              <Property name="GcRewardModifyStat">
+                <Property name="Stat" value="CHEF_POE" />
+                <Property name="OtherStat" value="" />
+                <Property name="Amount" value="0" />
+                <Property name="UseOtherStat" value="false" />
+                <Property name="ModifyType" value="GcStatModifyType">
+                  <Property name="ModifyType" value="Set" />
+                </Property>
+                <Property name="CanSetToValueLowerThanCurrent" value="true" />
+              </Property>
+            </Property>
+          </Property>
+          <Property name="List" value="GcRewardTableItem">
+            <Property name="PercentageChance" value="100.0" />
+            <Property name="LabelID" value="" />
+            <Property name="Reward" value="GcRewardMission">
+              <Property name="GcRewardMission">
+                <Property name="Mission" value="ALCH_CHEF_JUDGE" />
+                <Property name="SetAsSelected" value="false" />
+                <Property name="Restart" value="false" />
+                <Property name="FailRewardIfMissionActive" value="false" />
+                <Property name="AlreadyActiveFailureMessage" value="" />
+              </Property>
+            </Property>
+          </Property>
+        </Property>
+      </Property>
+    </Property>
+    <Property name="GenericTable" value="GcGenericRewardTableEntry">
+      <Property name="Id" value="R_CHEF_J_DONE" />
+      <Property name="List" value="GcRewardTableItemList">
+        <Property name="RewardChoice" value="GiveAll" />
+        <Property name="OverrideZeroSeed" value="false" />
+        <Property name="UseInventoryChoiceOverride" value="false" />
+        <Property name="IncrementStat" value="" />
+        <Property name="List">
+          <Property name="List" value="GcRewardTableItem">
+            <Property name="PercentageChance" value="100.0" />
+            <Property name="LabelID" value="" />
+            <Property name="Reward" value="GcRewardModifyStat">
+              <Property name="GcRewardModifyStat">
+                <Property name="Stat" value="CHEF_POE" />
+                <Property name="OtherStat" value="" />
+                <Property name="Amount" value="1" />
+                <Property name="UseOtherStat" value="false" />
+                <Property name="ModifyType" value="GcStatModifyType">
+                  <Property name="ModifyType" value="Set" />
+                </Property>
+                <Property name="CanSetToValueLowerThanCurrent" value="true" />
+              </Property>
+            </Property>
+          </Property>
+        </Property>
+      </Property>
+    </Property>
+    <Property name="GenericTable" value="GcGenericRewardTableEntry">
+      <Property name="Id" value="R_CHEF_SONG" />
+      <Property name="List" value="GcRewardTableItemList">
+        <Property name="RewardChoice" value="GiveAllSilent" />
+        <Property name="OverrideZeroSeed" value="false" />
+        <Property name="UseInventoryChoiceOverride" value="false" />
+        <Property name="IncrementStat" value="" />
+        <Property name="List">
+          <Property name="List" value="GcRewardTableItem">
+            <Property name="PercentageChance" value="100.0" />
+            <Property name="LabelID" value="" />
+            <Property name="Reward" value="GcRewardExchangeProduct">
+              <Property name="GcRewardExchangeProduct">
+                <Property name="IDToGive" value="P_CHEF_SONG_X" />
+                <Property name="IDToTake" value="P_CHEF_SONG" />
+                <Property name="AmountToGiveMin" value="1" />
+                <Property name="AmountToGiveMax" value="1" />
+                <Property name="AmountToTakeMax" value="1" />
+                <Property name="HideNewProduct" value="true" />
+                <Property name="ForceSpecialMessage" value="false" />
+              </Property>
+            </Property>
+          </Property>
+          <Property name="List" value="GcRewardTableItem">
+            <Property name="PercentageChance" value="100.0" />
+            <Property name="LabelID" value="" />
+            <Property name="Reward" value="GcRewardMission">
+              <Property name="GcRewardMission">
+                <Property name="Mission" value="ALCH_CHEF_WHALE" />
+                <Property name="SetAsSelected" value="false" />
+                <Property name="Restart" value="false" />
+                <Property name="FailRewardIfMissionActive" value="true" />
+                <Property name="AlreadyActiveFailureMessage" value="" />
+              </Property>
+            </Property>
+          </Property>
+        </Property>
+      </Property>
+    </Property>
+  </Property>
+</Data>

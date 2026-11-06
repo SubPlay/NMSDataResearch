@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="GcStatDefinitionTable">
+  <Property name="StatDefinitionTable">
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="-1" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_LORE" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_TUT" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_POE" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="1" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_DCM" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_API_A" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_API_H" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_API_B" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_API_F" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_CDH" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_IMC_B" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_IMC_C" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_IMC_S" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_IMM_B" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_IMM_C" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_IMM_S" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_IMP_B" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_IMP_C" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_IMP_S" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_ECO_B" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_ECO_S" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+    <Property name="StatDefinitionTable" value="GcStatDefinition">
+      <Property name="Type" value="GcStatType">
+        <Property name="StatType" value="Int" />
+      </Property>
+      <Property name="TrackType" value="GcStatTrackType">
+        <Property name="StatTrackType" value="Set" />
+      </Property>
+      <Property name="DisplayType" value="GcStatDisplayType">
+        <Property name="StatDisplayType" value="None" />
+      </Property>
+      <Property name="DefaultValue" value="GcStatValueData">
+        <Property name="IntValue" value="0" />
+        <Property name="FloatValue" value="0.0" />
+        <Property name="Denominator" value="0.0" />
+      </Property>
+      <Property name="Id" value="CHEF_WS_TUT" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="IsProgression" value="false" />
+      <Property name="AllowRemoteRecord" value="false" />
+      <Property name="MissionMessageDecimals" value="0" />
+    </Property>
+  </Property>
+</Data>

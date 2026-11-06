@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="GcMissionSchedulesTable">
+  <Property name="Schedules">
+    <Property name="Schedules" value="GcMissionSchedulingData">
+      <Property name="RecurrenceType" value="GcDailyRecurrence">
+        <Property name="GcDailyRecurrence">
+          <Property name="RecurrenceMinute" value="0" />
+          <Property name="RecurrenceHour" value="3" />
+          <Property name="DebugText" value="" />
+        </Property>
+      </Property>
+      <Property name="StartDate" value="GcDate">
+        <Property name="Minute" value="0" />
+        <Property name="Hour" value="0" />
+        <Property name="Day" value="1" />
+        <Property name="Month" value="GcMonth">
+          <Property name="Month" value="January" />
+        </Property>
+        <Property name="Year" value="2018" />
+      </Property>
+      <Property name="EndDate" value="GcDate">
+        <Property name="Minute" value="0" />
+        <Property name="Hour" value="0" />
+        <Property name="Day" value="1" />
+        <Property name="Month" value="GcMonth">
+          <Property name="Month" value="January" />
+        </Property>
+        <Property name="Year" value="2018" />
+      </Property>
+      <Property name="IndependentStart" value="false" />
+      <Property name="HasEndDate" value="false" />
+      <Property name="EarlyEndOffset" value="0" />
+      <Property name="MissionIDs">
+        <Property name="MissionIDs" value="ALCH_CHEF_RESET" />
+      </Property>
+    </Property>
+  </Property>
+</Data>

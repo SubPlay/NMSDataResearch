@@ -1,0 +1,3193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="GcMissionTable">
+  <Property name="Missions">
+    <Property name="Missions" value="GcGenericMissionSequence" _id="ALCH_CHEF_WHALE">
+      <Property name="MissionID" value="ALCH_CHEF_WHALE" />
+      <Property name="MissionClass" value="Guide" />
+      <Property name="MissionIsCritical" value="false" />
+      <Property name="MissionObjective" value="" />
+      <Property name="MissionTitles" value="GcNumberedTextList">
+        <Property name="Format" value="" />
+        <Property name="Count" value="1" />
+      </Property>
+      <Property name="MissionSubtitles" value="GcNumberedTextList">
+        <Property name="Format" value="" />
+        <Property name="Count" value="1" />
+      </Property>
+      <Property name="MissionDescriptions" value="GcNumberedTextList">
+        <Property name="Format" value="" />
+        <Property name="Count" value="1" />
+      </Property>
+      <Property name="SeasonalLogTextOverrides" value="GcSeasonalLogOverrides">
+        <Property name="ApplicableSeasonNumbers" />
+        <Property name="MissionTitle" value="" />
+        <Property name="MissionSubtitle" value="" />
+        <Property name="MissionDescription" value="" />
+      </Property>
+      <Property name="MissionDescSwitchOverride" value="" />
+      <Property name="MissionProcDescriptionHeader" value="GcNumberedTextList">
+        <Property name="Format" value="" />
+        <Property name="Count" value="1" />
+      </Property>
+      <Property name="MissionProcDescriptionA" value="GcNumberedTextList">
+        <Property name="Format" value="" />
+        <Property name="Count" value="1" />
+      </Property>
+      <Property name="MissionProcDescriptionB" value="GcNumberedTextList">
+        <Property name="Format" value="" />
+        <Property name="Count" value="1" />
+      </Property>
+      <Property name="MissionProcDescriptionC" value="GcNumberedTextList">
+        <Property name="Format" value="" />
+        <Property name="Count" value="1" />
+      </Property>
+      <Property name="UseScanEventDetailsInLogInfo" value="false" />
+      <Property name="UseFirstPurpleSystemDetailsInLogInfo" value="false" />
+      <Property name="MissionIcon" value="TkTextureResource">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.BIOFRIG.ON.DDS" />
+        <Property name="ResHandle" value="GcResource">
+          <Property name="ResourceID" value="0" />
+        </Property>
+      </Property>
+      <Property name="MissionIconSelected" value="TkTextureResource">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.BIOFRIG.ON.DDS" />
+        <Property name="ResHandle" value="GcResource">
+          <Property name="ResourceID" value="0" />
+        </Property>
+      </Property>
+      <Property name="MissionIconNotSelected" value="TkTextureResource">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/MISSIONS/MISSION.BIOFRIG.OFF.DDS" />
+        <Property name="ResHandle" value="GcResource">
+          <Property name="ResourceID" value="0" />
+        </Property>
+      </Property>
+      <Property name="MissionPriority" value="0" />
+      <Property name="MissionCategory" value="GcMissionCategory">
+        <Property name="MissionCategory" value="Mission" />
+      </Property>
+      <Property name="MissionPageHint" value="GcMissionPageHint">
+        <Property name="MissionPageHint" value="None" />
+      </Property>
+      <Property name="MissionPageLocID" value="" />
+      <Property name="MissionBuildMenuHint" value="" />
+      <Property name="MissionHasColourOverride" value="false" />
+      <Property name="MissionColourOverride" value="Colour">
+        <Property name="R" value="1.0" />
+        <Property name="G" value="1.0" />
+        <Property name="B" value="1.0" />
+        <Property name="A" value="1.0" />
+      </Property>
+      <Property name="BeginCheckFrequency" value="1" />
+      <Property name="WikiMissionBlockedBySeasons" />
+      <Property name="DefaultItems" value="GcDefaultMissionItemsTable">
+        <Property name="PrimarySubstances" />
+        <Property name="SecondarySubstances" />
+        <Property name="PrimaryProducts" />
+        <Property name="SecondaryProducts" />
+        <Property name="AmountMin" value="0" />
+        <Property name="AmountMax" value="0" />
+        <Property name="AmountShouldBeRoundNumber" value="false" />
+      </Property>
+      <Property name="PrefixTitle" value="true" />
+      <Property name="NextMissionHint" value="" />
+      <Property name="MessageComplete" value="Never" />
+      <Property name="MessageStart" value="Never" />
+      <Property name="MissionBoardOptions" value="GcMissionBoardOptions">
+        <Property name="Type" value="GcMissionType">
+          <Property name="MissionType" value="SpaceCombat" />
+        </Property>
+        <Property name="Difficulty" value="GcMissionDifficulty">
+          <Property name="MissionDifficulty" value="Normal" />
+        </Property>
+        <Property name="MinRank" value="0" />
+        <Property name="CloseMissionGiver" value="false" />
+        <Property name="IsGuildShopMission" value="false" />
+        <Property name="IsPlanetProcMission" value="false" />
+        <Property name="IsMultiplayerEventMission" value="false" />
+        <Property name="RewardPenaltyOnAbandon" value="" />
+        <Property name="Faction" />
+        <Property name="Weighting" value="0" />
+        <Property name="IgnoreCalculatedObjective" value="false" />
+        <Property name="MultiplayerMissionInitialWarpScanEvent" value="" />
+        <Property name="LocalMissionLocationScanEvent" value="" />
+        <Property name="DefaultItemInitialWarpScanEvents" />
+        <Property name="DefaultItemTypeForInitialWarp" value="None" />
+        <Property name="BasePartBlueprints" />
+        <Property name="MandatorySalvageEquipment" />
+        <Property name="RequireUncompletedPOI" value="false" />
+        <Property name="RequireUncompletedPOIOfType" value="GcSpacePoiType">
+          <Property name="SpacePoiType" value="AsteroidBelt" />
+        </Property>
+      </Property>
+      <Property name="AutoStart" value="None" />
+      <Property name="RestartOnCompletion" value="false" />
+      <Property name="CancelSetsComplete" value="false" />
+      <Property name="Dialog" value="GcAlienPuzzleTable">
+        <Property name="Table">
+          <Property name="Table" value="GcAlienPuzzleEntry">
+            <Property name="ProgressionIndex" value="-1" />
+            <Property name="MinProgressionForSelection" value="0" />
+            <Property name="Id" value="D_CHEF_SONG" />
+            <Property name="Race" value="GcAlienRace">
+              <Property name="AlienRace" value="None" />
+            </Property>
+            <Property name="Type" value="GcInteractionType">
+              <Property name="InteractionType" value="None" />
+            </Property>
+            <Property name="Category" value="GcAlienPuzzleCategory">
+              <Property name="AlienPuzzleCategory" value="Default" />
+            </Property>
+            <Property name="AdditionalOptions" value="None" />
+            <Property name="Title" value="" />
+            <Property name="Text" value="" />
+            <Property name="TextAlien" value="" />
+            <Property name="TranslateAlienText" value="false" />
+            <Property name="TranslationBrackets" value="true" />
+            <Property name="ForceLongTextSplitting" value="false" />
+            <Property name="ProgressiveDialogue" value="false" />
+            <Property name="RequiresScanEvent" value="" />
+            <Property name="Options">
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="D_CHEF_SONG_OPT_A" />
+                <Property name="Text" value="" />
+                <Property name="IsAlien" value="false" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="C_CHEFWS_SONG_X" />
+                <Property name="Rewards" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="true" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="false" />
+                <Property name="NextInteraction" value="D_CHEFWS_DREAM" />
+                <Property name="SelectedOnBackOut" value="false" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="ALL_REQUEST_LEAVE" />
+                <Property name="Text" value="" />
+                <Property name="IsAlien" value="false" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards">
+                  <Property name="Rewards" value="R_CHEFWS_EXIT" />
+                </Property>
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="false" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="true" />
+                <Property name="NextInteraction" value="" />
+                <Property name="SelectedOnBackOut" value="false" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+            </Property>
+            <Property name="AdditionalText" />
+            <Property name="AdditionalTextAlien" />
+            <Property name="Mood" value="GcAlienMood">
+              <Property name="Mood" value="Neutral" />
+            </Property>
+            <Property name="Prop" value="GcNPCPropType">
+              <Property name="NPCProp" value="DontCare" />
+            </Property>
+            <Property name="AdvancedInteractionFlow">
+              <Property name="AdvancedInteractionFlow" value="GcPuzzleTextFlow">
+                <Property name="Text" value="UI_FIRST_BIOFRIG_1_DESC" />
+                <Property name="AutoVaryText" value="false" />
+                <Property name="IsAlien" value="false" />
+                <Property name="Title" value="" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="TranslateAlienTextOverride" value="None" />
+                <Property name="BracketsOverride" value="None" />
+                <Property name="AlienLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="Traders" />
+                </Property>
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="FRIGATE_LIVING_TALK" />
+                </Property>
+                <Property name="ShowHologram" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+              </Property>
+              <Property name="AdvancedInteractionFlow" value="GcPuzzleTextFlow">
+                <Property name="Text" value="UI_FIRST_BIOFRIG_3_DESC" />
+                <Property name="AutoVaryText" value="false" />
+                <Property name="IsAlien" value="false" />
+                <Property name="Title" value="" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="TranslateAlienTextOverride" value="None" />
+                <Property name="BracketsOverride" value="None" />
+                <Property name="AlienLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="Traders" />
+                </Property>
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="FRIGATE_LIVING_TALK" />
+                </Property>
+                <Property name="ShowHologram" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+              </Property>
+              <Property name="AdvancedInteractionFlow" value="GcPuzzleTextFlow">
+                <Property name="Text" value="UI_FIRST_BIOFRIG_2_LANG" />
+                <Property name="AutoVaryText" value="false" />
+                <Property name="IsAlien" value="true" />
+                <Property name="Title" value="" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="TranslateAlienTextOverride" value="None" />
+                <Property name="BracketsOverride" value="None" />
+                <Property name="AlienLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="Traders" />
+                </Property>
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="FRIGATE_LIVING_TALK" />
+                </Property>
+                <Property name="ShowHologram" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+              </Property>
+            </Property>
+            <Property name="PersistancyBufferOverride" value="None" />
+            <Property name="CustomFreighterTextIndex" value="-1" />
+            <Property name="RadialInteraction" value="false" />
+            <Property name="UseTitleOverrideInLabel" value="false" />
+            <Property name="AllowNoOptions" value="false" />
+            <Property name="NextStageAudioEventOverride" value="GcAudioWwiseEvents">
+              <Property name="AkEvent" value="INVALID_EVENT" />
+            </Property>
+          </Property>
+          <Property name="Table" value="GcAlienPuzzleEntry">
+            <Property name="ProgressionIndex" value="-1" />
+            <Property name="MinProgressionForSelection" value="0" />
+            <Property name="Id" value="D_CHEFWS_DREAM" />
+            <Property name="Race" value="GcAlienRace">
+              <Property name="AlienRace" value="None" />
+            </Property>
+            <Property name="Type" value="GcInteractionType">
+              <Property name="InteractionType" value="None" />
+            </Property>
+            <Property name="Category" value="GcAlienPuzzleCategory">
+              <Property name="AlienPuzzleCategory" value="Default" />
+            </Property>
+            <Property name="AdditionalOptions" value="None" />
+            <Property name="Title" value="" />
+            <Property name="Text" value="" />
+            <Property name="TextAlien" value="" />
+            <Property name="TranslateAlienText" value="false" />
+            <Property name="TranslationBrackets" value="true" />
+            <Property name="ForceLongTextSplitting" value="false" />
+            <Property name="ProgressiveDialogue" value="false" />
+            <Property name="RequiresScanEvent" value="" />
+            <Property name="Options">
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="UI_FIRST_BIOFRIG_DREAM_OPT_END" />
+                <Property name="Text" value="D_CHEFWS_DREAM_RES_A" />
+                <Property name="IsAlien" value="false" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="true" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="false" />
+                <Property name="NextInteraction" value="D_CHEFWS_GIFT" />
+                <Property name="SelectedOnBackOut" value="false" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+            </Property>
+            <Property name="AdditionalText" />
+            <Property name="AdditionalTextAlien" />
+            <Property name="Mood" value="GcAlienMood">
+              <Property name="Mood" value="Neutral" />
+            </Property>
+            <Property name="Prop" value="GcNPCPropType">
+              <Property name="NPCProp" value="DontCare" />
+            </Property>
+            <Property name="AdvancedInteractionFlow">
+              <Property name="AdvancedInteractionFlow" value="GcPuzzleTextFlow">
+                <Property name="Text" value="D_CHEFWS_DREAM_FLOW_DESC_0" />
+                <Property name="AutoVaryText" value="false" />
+                <Property name="IsAlien" value="false" />
+                <Property name="Title" value="" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="TranslateAlienTextOverride" value="None" />
+                <Property name="BracketsOverride" value="None" />
+                <Property name="AlienLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="Traders" />
+                </Property>
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="FRIGATE_LIVING_TALK" />
+                </Property>
+                <Property name="ShowHologram" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+              </Property>
+              <Property name="AdvancedInteractionFlow" value="GcPuzzleTextFlow">
+                <Property name="Text" value="D_CHEFWS_DREAM_FLOW_LANG_1" />
+                <Property name="AutoVaryText" value="false" />
+                <Property name="IsAlien" value="true" />
+                <Property name="Title" value="" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="TranslateAlienTextOverride" value="None" />
+                <Property name="BracketsOverride" value="None" />
+                <Property name="AlienLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="Traders" />
+                </Property>
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="FRIGATE_LIVING_TALK" />
+                </Property>
+                <Property name="ShowHologram" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+              </Property>
+              <Property name="AdvancedInteractionFlow" value="GcPuzzleTextFlow">
+                <Property name="Text" value="D_CHEFWS_DREAM_FLOW_DESC_2" />
+                <Property name="AutoVaryText" value="false" />
+                <Property name="IsAlien" value="false" />
+                <Property name="Title" value="" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="TranslateAlienTextOverride" value="None" />
+                <Property name="BracketsOverride" value="None" />
+                <Property name="AlienLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="Traders" />
+                </Property>
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="FRIGATE_LIVING_TALK" />
+                </Property>
+                <Property name="ShowHologram" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+              </Property>
+              <Property name="AdvancedInteractionFlow" value="GcPuzzleTextFlow">
+                <Property name="Text" value="D_CHEFWS_DREAM_FLOW_DESC_3" />
+                <Property name="AutoVaryText" value="false" />
+                <Property name="IsAlien" value="false" />
+                <Property name="Title" value="" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="TranslateAlienTextOverride" value="None" />
+                <Property name="BracketsOverride" value="None" />
+                <Property name="AlienLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="Traders" />
+                </Property>
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="FRIGATE_LIVING_TALK" />
+                </Property>
+                <Property name="ShowHologram" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+              </Property>
+              <Property name="AdvancedInteractionFlow" value="GcPuzzleTextFlow">
+                <Property name="Text" value="D_CHEFWS_DREAM_FLOW_LANG_4" />
+                <Property name="AutoVaryText" value="false" />
+                <Property name="IsAlien" value="true" />
+                <Property name="Title" value="" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="TranslateAlienTextOverride" value="None" />
+                <Property name="BracketsOverride" value="None" />
+                <Property name="AlienLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="Traders" />
+                </Property>
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="FRIGATE_LIVING_TALK" />
+                </Property>
+                <Property name="ShowHologram" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+              </Property>
+            </Property>
+            <Property name="PersistancyBufferOverride" value="None" />
+            <Property name="CustomFreighterTextIndex" value="-1" />
+            <Property name="RadialInteraction" value="false" />
+            <Property name="UseTitleOverrideInLabel" value="false" />
+            <Property name="AllowNoOptions" value="false" />
+            <Property name="NextStageAudioEventOverride" value="GcAudioWwiseEvents">
+              <Property name="AkEvent" value="INVALID_EVENT" />
+            </Property>
+          </Property>
+          <Property name="Table" value="GcAlienPuzzleEntry">
+            <Property name="ProgressionIndex" value="-1" />
+            <Property name="MinProgressionForSelection" value="0" />
+            <Property name="Id" value="D_CHEFWS_GIFT" />
+            <Property name="Race" value="GcAlienRace">
+              <Property name="AlienRace" value="None" />
+            </Property>
+            <Property name="Type" value="GcInteractionType">
+              <Property name="InteractionType" value="None" />
+            </Property>
+            <Property name="Category" value="GcAlienPuzzleCategory">
+              <Property name="AlienPuzzleCategory" value="Default" />
+            </Property>
+            <Property name="AdditionalOptions" value="None" />
+            <Property name="Title" value="" />
+            <Property name="Text" value="" />
+            <Property name="TextAlien" value="" />
+            <Property name="TranslateAlienText" value="false" />
+            <Property name="TranslationBrackets" value="true" />
+            <Property name="ForceLongTextSplitting" value="false" />
+            <Property name="ProgressiveDialogue" value="false" />
+            <Property name="RequiresScanEvent" value="" />
+            <Property name="Options">
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="UI_FIRST_BIOFRIG_PURCHASE_OPT" />
+                <Property name="Text" value="" />
+                <Property name="IsAlien" value="false" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="true" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="false" />
+                <Property name="NextInteraction" value="D_CHEFWS_FLEET1" />
+                <Property name="SelectedOnBackOut" value="false" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyTrue" />
+                </Property>
+                <Property name="DisablingConditions">
+                  <Property name="DisablingConditions" value="GcMissionConditionGroup">
+                    <Property name="GcMissionConditionGroup">
+                      <Property name="OnlyUsedForTextFormatting" value="false" />
+                      <Property name="ValueToReturnForTextFormatting" value="false" />
+                      <Property name="ConditionTest" value="GcMissionConditionTest">
+                        <Property name="ConditionTest" value="AnyTrue" />
+                      </Property>
+                      <Property name="Conditions">
+                        <Property name="Conditions" value="GcMissionConditionHasFreighter">
+                          <Property name="GcMissionConditionHasFreighter">
+                            <Property name="FreighterInCurrentSystem" value="DontCare" />
+                          </Property>
+                        </Property>
+                      </Property>
+                    </Property>
+                  </Property>
+                  <Property name="DisablingConditions" value="GcMissionConditionFrigateCount">
+                    <Property name="GcMissionConditionFrigateCount">
+                      <Property name="FrigateCount" value="30" />
+                      <Property name="Test" value="TkEqualityEnum">
+                        <Property name="EqualityEnum" value="Equal" />
+                      </Property>
+                    </Property>
+                  </Property>
+                </Property>
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="D_CHEFWS_GIFT_OPT_B" />
+                <Property name="Text" value="" />
+                <Property name="IsAlien" value="false" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="true" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="false" />
+                <Property name="NextInteraction" value="D_CHEFWS_FLEETR" />
+                <Property name="SelectedOnBackOut" value="false" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="D_CHEFWS_GIFT_OPT_C" />
+                <Property name="Text" value="" />
+                <Property name="IsAlien" value="false" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="true" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="false" />
+                <Property name="NextInteraction" value="D_CHEFWS_SHIP" />
+                <Property name="SelectedOnBackOut" value="false" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="ALL_REQUEST_LEAVE" />
+                <Property name="Text" value="D_CHEFWS_GIFT_RES_D" />
+                <Property name="IsAlien" value="true" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards">
+                  <Property name="Rewards" value="R_CHEFWS_END" />
+                </Property>
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="false" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="true" />
+                <Property name="NextInteraction" value="" />
+                <Property name="SelectedOnBackOut" value="false" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+            </Property>
+            <Property name="AdditionalText" />
+            <Property name="AdditionalTextAlien" />
+            <Property name="Mood" value="GcAlienMood">
+              <Property name="Mood" value="Neutral" />
+            </Property>
+            <Property name="Prop" value="GcNPCPropType">
+              <Property name="NPCProp" value="DontCare" />
+            </Property>
+            <Property name="AdvancedInteractionFlow">
+              <Property name="AdvancedInteractionFlow" value="GcPuzzleTextFlow">
+                <Property name="Text" value="D_CHEFWS_GIFT_FLOW_LANG_0" />
+                <Property name="AutoVaryText" value="false" />
+                <Property name="IsAlien" value="true" />
+                <Property name="Title" value="" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="TranslateAlienTextOverride" value="None" />
+                <Property name="BracketsOverride" value="None" />
+                <Property name="AlienLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="Traders" />
+                </Property>
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="FRIGATE_LIVING_TALK" />
+                </Property>
+                <Property name="ShowHologram" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+              </Property>
+            </Property>
+            <Property name="PersistancyBufferOverride" value="None" />
+            <Property name="CustomFreighterTextIndex" value="-1" />
+            <Property name="RadialInteraction" value="false" />
+            <Property name="UseTitleOverrideInLabel" value="false" />
+            <Property name="AllowNoOptions" value="false" />
+            <Property name="NextStageAudioEventOverride" value="GcAudioWwiseEvents">
+              <Property name="AkEvent" value="INVALID_EVENT" />
+            </Property>
+          </Property>
+          <Property name="Table" value="GcAlienPuzzleEntry">
+            <Property name="ProgressionIndex" value="-1" />
+            <Property name="MinProgressionForSelection" value="0" />
+            <Property name="Id" value="D_CHEFWS_FLEET1" />
+            <Property name="Race" value="GcAlienRace">
+              <Property name="AlienRace" value="None" />
+            </Property>
+            <Property name="Type" value="GcInteractionType">
+              <Property name="InteractionType" value="None" />
+            </Property>
+            <Property name="Category" value="GcAlienPuzzleCategory">
+              <Property name="AlienPuzzleCategory" value="Default" />
+            </Property>
+            <Property name="AdditionalOptions" value="None" />
+            <Property name="Title" value="" />
+            <Property name="Text" value="" />
+            <Property name="TextAlien" value="" />
+            <Property name="TranslateAlienText" value="false" />
+            <Property name="TranslationBrackets" value="true" />
+            <Property name="ForceLongTextSplitting" value="false" />
+            <Property name="ProgressiveDialogue" value="false" />
+            <Property name="RequiresScanEvent" value="" />
+            <Property name="Options">
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="D_CHEFWS_FLEET1_OPT_A" />
+                <Property name="Text" value="UI_FIRST_BIOFRIG_DREAM_EXP" />
+                <Property name="IsAlien" value="true" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards">
+                  <Property name="Rewards" value="R_BIOFRIG_C_EXP" />
+                  <Property name="Rewards" value="R_CHEFWS_END" />
+                </Property>
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="false" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="true" />
+                <Property name="NextInteraction" value="" />
+                <Property name="SelectedOnBackOut" value="false" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="D_CHEFWS_FLEET1_OPT_B" />
+                <Property name="Text" value="UI_FIRST_BIOFRIG_DREAM_ATT" />
+                <Property name="IsAlien" value="true" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards">
+                  <Property name="Rewards" value="R_BIOFRIG_C_ATT" />
+                  <Property name="Rewards" value="R_CHEFWS_END" />
+                </Property>
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="false" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="true" />
+                <Property name="NextInteraction" value="" />
+                <Property name="SelectedOnBackOut" value="false" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="D_CHEFWS_FLEET1_OPT_C" />
+                <Property name="Text" value="UI_FIRST_BIOFRIG_DREAM_FUE" />
+                <Property name="IsAlien" value="true" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards">
+                  <Property name="Rewards" value="R_BIOFRIG_C_FUE" />
+                  <Property name="Rewards" value="R_CHEFWS_END" />
+                </Property>
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="false" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="true" />
+                <Property name="NextInteraction" value="" />
+                <Property name="SelectedOnBackOut" value="false" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="ALCH_CHEF_MENU_NEXT_OPT" />
+                <Property name="Text" value="" />
+                <Property name="IsAlien" value="false" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="true" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="false" />
+                <Property name="NextInteraction" value="D_CHEFWS_FLEET2" />
+                <Property name="SelectedOnBackOut" value="true" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+            </Property>
+            <Property name="AdditionalText" />
+            <Property name="AdditionalTextAlien" />
+            <Property name="Mood" value="GcAlienMood">
+              <Property name="Mood" value="Neutral" />
+            </Property>
+            <Property name="Prop" value="GcNPCPropType">
+              <Property name="NPCProp" value="DontCare" />
+            </Property>
+            <Property name="AdvancedInteractionFlow">
+              <Property name="AdvancedInteractionFlow" value="GcPuzzleTextFlow">
+                <Property name="Text" value="ALCH_CHEF_WHALE_PROMPT" />
+                <Property name="AutoVaryText" value="false" />
+                <Property name="IsAlien" value="true" />
+                <Property name="Title" value="" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="TranslateAlienTextOverride" value="None" />
+                <Property name="BracketsOverride" value="None" />
+                <Property name="AlienLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="Traders" />
+                </Property>
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="FRIGATE_LIVING_TALK" />
+                </Property>
+                <Property name="ShowHologram" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+              </Property>
+            </Property>
+            <Property name="PersistancyBufferOverride" value="None" />
+            <Property name="CustomFreighterTextIndex" value="-1" />
+            <Property name="RadialInteraction" value="false" />
+            <Property name="UseTitleOverrideInLabel" value="false" />
+            <Property name="AllowNoOptions" value="false" />
+            <Property name="NextStageAudioEventOverride" value="GcAudioWwiseEvents">
+              <Property name="AkEvent" value="INVALID_EVENT" />
+            </Property>
+          </Property>
+          <Property name="Table" value="GcAlienPuzzleEntry">
+            <Property name="ProgressionIndex" value="-1" />
+            <Property name="MinProgressionForSelection" value="0" />
+            <Property name="Id" value="D_CHEFWS_FLEET2" />
+            <Property name="Race" value="GcAlienRace">
+              <Property name="AlienRace" value="None" />
+            </Property>
+            <Property name="Type" value="GcInteractionType">
+              <Property name="InteractionType" value="None" />
+            </Property>
+            <Property name="Category" value="GcAlienPuzzleCategory">
+              <Property name="AlienPuzzleCategory" value="Default" />
+            </Property>
+            <Property name="AdditionalOptions" value="None" />
+            <Property name="Title" value="" />
+            <Property name="Text" value="" />
+            <Property name="TextAlien" value="" />
+            <Property name="TranslateAlienText" value="false" />
+            <Property name="TranslationBrackets" value="true" />
+            <Property name="ForceLongTextSplitting" value="false" />
+            <Property name="ProgressiveDialogue" value="false" />
+            <Property name="RequiresScanEvent" value="" />
+            <Property name="Options">
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="D_CHEFWS_FLEET2_OPT_A" />
+                <Property name="Text" value="UI_FIRST_BIOFRIG_DREAM_IND" />
+                <Property name="IsAlien" value="true" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards">
+                  <Property name="Rewards" value="R_BIOFRIG_C_IND" />
+                  <Property name="Rewards" value="R_CHEFWS_END" />
+                </Property>
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="false" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="true" />
+                <Property name="NextInteraction" value="" />
+                <Property name="SelectedOnBackOut" value="false" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="D_CHEFWS_FLEET2_OPT_B" />
+                <Property name="Text" value="UI_FIRST_BIOFRIG_DREAM_TRA" />
+                <Property name="IsAlien" value="true" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards">
+                  <Property name="Rewards" value="R_BIOFRIG_C_TRA" />
+                  <Property name="Rewards" value="R_CHEFWS_END" />
+                </Property>
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="false" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="true" />
+                <Property name="NextInteraction" value="" />
+                <Property name="SelectedOnBackOut" value="false" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="D_CHEFWS_FLEET2_OPT_C" />
+                <Property name="Text" value="UI_FIRST_BIOFRIG_DREAM_SPE" />
+                <Property name="IsAlien" value="true" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards">
+                  <Property name="Rewards" value="R_BIOFRIG_C_SPE" />
+                  <Property name="Rewards" value="R_CHEFWS_END" />
+                </Property>
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="false" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="true" />
+                <Property name="NextInteraction" value="" />
+                <Property name="SelectedOnBackOut" value="false" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="ALCH_CHEF_MENU_BACK_OPT" />
+                <Property name="Text" value="" />
+                <Property name="IsAlien" value="false" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="true" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="false" />
+                <Property name="NextInteraction" value="D_CHEFWS_GIFT" />
+                <Property name="SelectedOnBackOut" value="true" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+            </Property>
+            <Property name="AdditionalText" />
+            <Property name="AdditionalTextAlien" />
+            <Property name="Mood" value="GcAlienMood">
+              <Property name="Mood" value="Neutral" />
+            </Property>
+            <Property name="Prop" value="GcNPCPropType">
+              <Property name="NPCProp" value="DontCare" />
+            </Property>
+            <Property name="AdvancedInteractionFlow">
+              <Property name="AdvancedInteractionFlow" value="GcPuzzleTextFlow">
+                <Property name="Text" value="ALCH_CHEF_WHALE_PROMPT" />
+                <Property name="AutoVaryText" value="false" />
+                <Property name="IsAlien" value="true" />
+                <Property name="Title" value="" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="TranslateAlienTextOverride" value="None" />
+                <Property name="BracketsOverride" value="None" />
+                <Property name="AlienLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="Traders" />
+                </Property>
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="FRIGATE_LIVING_TALK" />
+                </Property>
+                <Property name="ShowHologram" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+              </Property>
+            </Property>
+            <Property name="PersistancyBufferOverride" value="None" />
+            <Property name="CustomFreighterTextIndex" value="-1" />
+            <Property name="RadialInteraction" value="false" />
+            <Property name="UseTitleOverrideInLabel" value="false" />
+            <Property name="AllowNoOptions" value="false" />
+            <Property name="NextStageAudioEventOverride" value="GcAudioWwiseEvents">
+              <Property name="AkEvent" value="INVALID_EVENT" />
+            </Property>
+          </Property>
+          <Property name="Table" value="GcAlienPuzzleEntry">
+            <Property name="ProgressionIndex" value="-1" />
+            <Property name="MinProgressionForSelection" value="0" />
+            <Property name="Id" value="D_CHEFWS_FLEETR" />
+            <Property name="Race" value="GcAlienRace">
+              <Property name="AlienRace" value="None" />
+            </Property>
+            <Property name="Type" value="GcInteractionType">
+              <Property name="InteractionType" value="None" />
+            </Property>
+            <Property name="Category" value="GcAlienPuzzleCategory">
+              <Property name="AlienPuzzleCategory" value="Default" />
+            </Property>
+            <Property name="AdditionalOptions" value="None" />
+            <Property name="Title" value="" />
+            <Property name="Text" value="" />
+            <Property name="TextAlien" value="" />
+            <Property name="TranslateAlienText" value="false" />
+            <Property name="TranslationBrackets" value="true" />
+            <Property name="ForceLongTextSplitting" value="false" />
+            <Property name="ProgressiveDialogue" value="false" />
+            <Property name="RequiresScanEvent" value="" />
+            <Property name="Options">
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="D_CHEFWS_FLEETR_OPT_A" />
+                <Property name="Text" value="ALCH_CHEF_WHALE_TECH_RES" />
+                <Property name="IsAlien" value="true" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards">
+                  <Property name="Rewards" value="R_FREI_TECH" />
+                  <Property name="Rewards" value="R_CHEFWS_END" />
+                </Property>
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="false" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="false" />
+                <Property name="NextInteraction" value="" />
+                <Property name="SelectedOnBackOut" value="false" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="ALCH_CHEF_MENU_BACK_OPT" />
+                <Property name="Text" value="" />
+                <Property name="IsAlien" value="false" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="true" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="false" />
+                <Property name="NextInteraction" value="D_CHEFWS_GIFT" />
+                <Property name="SelectedOnBackOut" value="true" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+            </Property>
+            <Property name="AdditionalText" />
+            <Property name="AdditionalTextAlien" />
+            <Property name="Mood" value="GcAlienMood">
+              <Property name="Mood" value="Neutral" />
+            </Property>
+            <Property name="Prop" value="GcNPCPropType">
+              <Property name="NPCProp" value="DontCare" />
+            </Property>
+            <Property name="AdvancedInteractionFlow">
+              <Property name="AdvancedInteractionFlow" value="GcPuzzleTextFlow">
+                <Property name="Text" value="UI_FIRST_BIOFRIG_RES_A" />
+                <Property name="AutoVaryText" value="false" />
+                <Property name="IsAlien" value="true" />
+                <Property name="Title" value="" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="TranslateAlienTextOverride" value="None" />
+                <Property name="BracketsOverride" value="None" />
+                <Property name="AlienLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="Traders" />
+                </Property>
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="FRIGATE_LIVING_TALK" />
+                </Property>
+                <Property name="ShowHologram" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+              </Property>
+              <Property name="AdvancedInteractionFlow" value="GcPuzzleTextFlow">
+                <Property name="Text" value="UI_FIRST_BIOFRIG_RES_C" />
+                <Property name="AutoVaryText" value="false" />
+                <Property name="IsAlien" value="true" />
+                <Property name="Title" value="" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="TranslateAlienTextOverride" value="None" />
+                <Property name="BracketsOverride" value="None" />
+                <Property name="AlienLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="Traders" />
+                </Property>
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="FRIGATE_LIVING_TALK" />
+                </Property>
+                <Property name="ShowHologram" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+              </Property>
+            </Property>
+            <Property name="PersistancyBufferOverride" value="None" />
+            <Property name="CustomFreighterTextIndex" value="-1" />
+            <Property name="RadialInteraction" value="false" />
+            <Property name="UseTitleOverrideInLabel" value="false" />
+            <Property name="AllowNoOptions" value="false" />
+            <Property name="NextStageAudioEventOverride" value="GcAudioWwiseEvents">
+              <Property name="AkEvent" value="INVALID_EVENT" />
+            </Property>
+          </Property>
+          <Property name="Table" value="GcAlienPuzzleEntry">
+            <Property name="ProgressionIndex" value="-1" />
+            <Property name="MinProgressionForSelection" value="0" />
+            <Property name="Id" value="D_CHEFWS_SHIP" />
+            <Property name="Race" value="GcAlienRace">
+              <Property name="AlienRace" value="None" />
+            </Property>
+            <Property name="Type" value="GcInteractionType">
+              <Property name="InteractionType" value="None" />
+            </Property>
+            <Property name="Category" value="GcAlienPuzzleCategory">
+              <Property name="AlienPuzzleCategory" value="Default" />
+            </Property>
+            <Property name="AdditionalOptions" value="None" />
+            <Property name="Title" value="" />
+            <Property name="Text" value="" />
+            <Property name="TextAlien" value="" />
+            <Property name="TranslateAlienText" value="false" />
+            <Property name="TranslationBrackets" value="true" />
+            <Property name="ForceLongTextSplitting" value="false" />
+            <Property name="ProgressiveDialogue" value="false" />
+            <Property name="RequiresScanEvent" value="" />
+            <Property name="Options">
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="D_CHEFWS_SHIP_OPT_A" />
+                <Property name="Text" value="ALCH_CHEF_WHALE_SHIP_RES" />
+                <Property name="IsAlien" value="true" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards">
+                  <Property name="Rewards" value="R_CHEFWS_EGG" />
+                  <Property name="Rewards" value="R_CHEFWS_END" />
+                </Property>
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="false" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="true" />
+                <Property name="NextInteraction" value="" />
+                <Property name="SelectedOnBackOut" value="false" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyTrue" />
+                </Property>
+                <Property name="DisablingConditions">
+                  <Property name="DisablingConditions" value="GcMissionConditionMissionCompleted">
+                    <Property name="GcMissionConditionMissionCompleted">
+                      <Property name="MissionID" value="BIO_SHIP5" />
+                      <Property name="SeasonalMissionSeed" value="0" />
+                      <Property name="TakeIDFromSeasonData" value="false" />
+                      <Property name="CalculateTextMissionTargetFromStageIndex" value="false" />
+                      <Property name="CalculateSeasonalSeedFromStageIndexOffset" value="0" />
+                    </Property>
+                  </Property>
+                </Property>
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="D_CHEFWS_SHIP_OPT_B" />
+                <Property name="Text" value="ALCH_CHEF_WHALE_SHIP_RES" />
+                <Property name="IsAlien" value="true" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards">
+                  <Property name="Rewards" value="R_BIOSHIPL" />
+                  <Property name="Rewards" value="R_CHEFWS_END" />
+                </Property>
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="false" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="true" />
+                <Property name="NextInteraction" value="" />
+                <Property name="SelectedOnBackOut" value="false" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions">
+                  <Property name="DisablingConditions" value="GcMissionConditionMissionCompleted">
+                    <Property name="GcMissionConditionMissionCompleted">
+                      <Property name="MissionID" value="BIO_SHIP5" />
+                      <Property name="SeasonalMissionSeed" value="0" />
+                      <Property name="TakeIDFromSeasonData" value="false" />
+                      <Property name="CalculateTextMissionTargetFromStageIndex" value="false" />
+                      <Property name="CalculateSeasonalSeedFromStageIndexOffset" value="0" />
+                    </Property>
+                  </Property>
+                  <Property name="DisablingConditions" value="GcMissionConditionGroup">
+                    <Property name="GcMissionConditionGroup">
+                      <Property name="OnlyUsedForTextFormatting" value="false" />
+                      <Property name="ValueToReturnForTextFormatting" value="false" />
+                      <Property name="ConditionTest" value="GcMissionConditionTest">
+                        <Property name="ConditionTest" value="AnyTrue" />
+                      </Property>
+                      <Property name="Conditions">
+                        <Property name="Conditions" value="GcMissionConditionIsMissionInProgress">
+                          <Property name="GcMissionConditionIsMissionInProgress">
+                            <Property name="MissionID" value="BIOSHIP_REPEAT" />
+                            <Property name="MustBeSelectedMission" value="false" />
+                          </Property>
+                        </Property>
+                      </Property>
+                    </Property>
+                  </Property>
+                </Property>
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="D_CHEFWS_SHIP_OPT_C" />
+                <Property name="Text" value="ALCH_CHEF_WHALE_TECH_RES" />
+                <Property name="IsAlien" value="true" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards">
+                  <Property name="Rewards" value="R_CHEFWS_BIOLOO" />
+                  <Property name="Rewards" value="R_CHEFWS_END" />
+                </Property>
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="false" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="true" />
+                <Property name="NextInteraction" value="" />
+                <Property name="SelectedOnBackOut" value="false" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions">
+                  <Property name="DisablingConditions" value="GcMissionConditionMissionCompleted">
+                    <Property name="GcMissionConditionMissionCompleted">
+                      <Property name="MissionID" value="BIO_SHIP5" />
+                      <Property name="SeasonalMissionSeed" value="0" />
+                      <Property name="TakeIDFromSeasonData" value="false" />
+                      <Property name="CalculateTextMissionTargetFromStageIndex" value="false" />
+                      <Property name="CalculateSeasonalSeedFromStageIndexOffset" value="0" />
+                    </Property>
+                  </Property>
+                </Property>
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+              <Property name="Options" value="GcAlienPuzzleOption">
+                <Property name="Name" value="ALCH_CHEF_MENU_BACK_OPT" />
+                <Property name="Text" value="" />
+                <Property name="IsAlien" value="false" />
+                <Property name="ResponseLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="Cost" value="" />
+                <Property name="Rewards" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="Prop" value="GcNPCPropType">
+                  <Property name="NPCProp" value="DontCare" />
+                </Property>
+                <Property name="OverrideWithAlienWord" value="false" />
+                <Property name="AlienWordSpecificRace" value="GcAlienRace">
+                  <Property name="AlienRace" value="None" />
+                </Property>
+                <Property name="ReseedInteractionOnUse" value="false" />
+                <Property name="KeepOpen" value="true" />
+                <Property name="DisplayCost" value="true" />
+                <Property name="TruncateCost" value="false" />
+                <Property name="MarkInteractionComplete" value="false" />
+                <Property name="NextInteraction" value="D_CHEFWS_GIFT" />
+                <Property name="SelectedOnBackOut" value="true" />
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="INVALID_EVENT" />
+                </Property>
+                <Property name="TitleOverride" value="" />
+                <Property name="SkipStraightToOptionsOnNextPuzzle" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+                <Property name="WordCategory" value="GcWordCategoryTableEnum">
+                  <Property name="gcwordcategorytableEnum" value="MISC" />
+                </Property>
+              </Property>
+            </Property>
+            <Property name="AdditionalText" />
+            <Property name="AdditionalTextAlien" />
+            <Property name="Mood" value="GcAlienMood">
+              <Property name="Mood" value="Neutral" />
+            </Property>
+            <Property name="Prop" value="GcNPCPropType">
+              <Property name="NPCProp" value="DontCare" />
+            </Property>
+            <Property name="AdvancedInteractionFlow">
+              <Property name="AdvancedInteractionFlow" value="GcPuzzleTextFlow">
+                <Property name="Text" value="UI_HAIL_BIOFRIG_DESC_2" />
+                <Property name="AutoVaryText" value="false" />
+                <Property name="IsAlien" value="false" />
+                <Property name="Title" value="" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="TranslateAlienTextOverride" value="None" />
+                <Property name="BracketsOverride" value="None" />
+                <Property name="AlienLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="Traders" />
+                </Property>
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="FRIGATE_LIVING_TALK" />
+                </Property>
+                <Property name="ShowHologram" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+              </Property>
+              <Property name="AdvancedInteractionFlow" value="GcPuzzleTextFlow">
+                <Property name="Text" value="D_CHEFWS_SHIP_FLOW_LANG_1" />
+                <Property name="AutoVaryText" value="false" />
+                <Property name="IsAlien" value="true" />
+                <Property name="Title" value="" />
+                <Property name="Mood" value="GcAlienMood">
+                  <Property name="Mood" value="Neutral" />
+                </Property>
+                <Property name="TranslateAlienTextOverride" value="None" />
+                <Property name="BracketsOverride" value="None" />
+                <Property name="AlienLanguageOverride" value="GcAlienRace">
+                  <Property name="AlienRace" value="Traders" />
+                </Property>
+                <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                  <Property name="AkEvent" value="FRIGATE_LIVING_TALK" />
+                </Property>
+                <Property name="ShowHologram" value="false" />
+                <Property name="DisablingConditionTest" value="GcMissionConditionTest">
+                  <Property name="ConditionTest" value="AnyFalse" />
+                </Property>
+                <Property name="DisablingConditions" />
+                <Property name="DisablingConditionId" value="" />
+              </Property>
+            </Property>
+            <Property name="PersistancyBufferOverride" value="None" />
+            <Property name="CustomFreighterTextIndex" value="-1" />
+            <Property name="RadialInteraction" value="false" />
+            <Property name="UseTitleOverrideInLabel" value="false" />
+            <Property name="AllowNoOptions" value="false" />
+            <Property name="NextStageAudioEventOverride" value="GcAudioWwiseEvents">
+              <Property name="AkEvent" value="INVALID_EVENT" />
+            </Property>
+          </Property>
+        </Property>
+      </Property>
+      <Property name="ScanEvents" />
+      <Property name="Rewards">
+        <Property name="Rewards" value="GcGenericRewardTableEntry">
+          <Property name="Id" value="R_CHEFWS_END" />
+          <Property name="List" value="GcRewardTableItemList">
+            <Property name="RewardChoice" value="GiveAll" />
+            <Property name="OverrideZeroSeed" value="false" />
+            <Property name="UseInventoryChoiceOverride" value="false" />
+            <Property name="IncrementStat" value="" />
+            <Property name="List">
+              <Property name="List" value="GcRewardTableItem">
+                <Property name="PercentageChance" value="100.0" />
+                <Property name="LabelID" value="" />
+                <Property name="Reward" value="GcRewardEndFrigateFlyby">
+                  <Property name="GcRewardEndFrigateFlyby" />
+                </Property>
+              </Property>
+              <Property name="List" value="GcRewardTableItem">
+                <Property name="PercentageChance" value="100.0" />
+                <Property name="LabelID" value="" />
+                <Property name="Reward" value="GcRewardMissionMessage">
+                  <Property name="GcRewardMissionMessage">
+                    <Property name="MessageID" value="M_CHEFWS_DONE" />
+                    <Property name="BroadcastInMultiplayer" value="false" />
+                  </Property>
+                </Property>
+              </Property>
+              <Property name="List" value="GcRewardTableItem">
+                <Property name="PercentageChance" value="100.0" />
+                <Property name="LabelID" value="" />
+                <Property name="Reward" value="GcRewardMissionMessage">
+                  <Property name="GcRewardMissionMessage">
+                    <Property name="MessageID" value="M_CHEF_DREAM" />
+                    <Property name="BroadcastInMultiplayer" value="false" />
+                  </Property>
+                </Property>
+              </Property>
+            </Property>
+          </Property>
+        </Property>
+        <Property name="Rewards" value="GcGenericRewardTableEntry">
+          <Property name="Id" value="R_CHEFWS_EXIT" />
+          <Property name="List" value="GcRewardTableItemList">
+            <Property name="RewardChoice" value="GiveAll" />
+            <Property name="OverrideZeroSeed" value="false" />
+            <Property name="UseInventoryChoiceOverride" value="false" />
+            <Property name="IncrementStat" value="" />
+            <Property name="List">
+              <Property name="List" value="GcRewardTableItem">
+                <Property name="PercentageChance" value="100.0" />
+                <Property name="LabelID" value="" />
+                <Property name="Reward" value="GcRewardEndFrigateFlyby">
+                  <Property name="GcRewardEndFrigateFlyby" />
+                </Property>
+              </Property>
+              <Property name="List" value="GcRewardTableItem">
+                <Property name="PercentageChance" value="100.0" />
+                <Property name="LabelID" value="" />
+                <Property name="Reward" value="GcRewardMissionMessage">
+                  <Property name="GcRewardMissionMessage">
+                    <Property name="MessageID" value="M_CHEFWS_DONE" />
+                    <Property name="BroadcastInMultiplayer" value="false" />
+                  </Property>
+                </Property>
+              </Property>
+            </Property>
+          </Property>
+        </Property>
+        <Property name="Rewards" value="GcGenericRewardTableEntry">
+          <Property name="Id" value="R_CHEFWS_EGG" />
+          <Property name="List" value="GcRewardTableItemList">
+            <Property name="RewardChoice" value="GiveAll" />
+            <Property name="OverrideZeroSeed" value="false" />
+            <Property name="UseInventoryChoiceOverride" value="false" />
+            <Property name="IncrementStat" value="" />
+            <Property name="List">
+              <Property name="List" value="GcRewardTableItem">
+                <Property name="PercentageChance" value="100.0" />
+                <Property name="LabelID" value="" />
+                <Property name="Reward" value="GcRewardSpecificProduct">
+                  <Property name="GcRewardSpecificProduct">
+                    <Property name="Default" value="GcDefaultMissionProductEnum">
+                      <Property name="DefaultProductType" value="None" />
+                    </Property>
+                    <Property name="ID" value="ODD_EGG" />
+                    <Property name="AmountMin" value="1" />
+                    <Property name="AmountMax" value="1" />
+                    <Property name="HideAmountInMessage" value="false" />
+                    <Property name="ForceSpecialMessage" value="true" />
+                    <Property name="HideInSeasonRewards" value="false" />
+                    <Property name="Silent" value="false" />
+                    <Property name="SeasonRewardListFormat" value="" />
+                    <Property name="RequiresTech" value="" />
+                  </Property>
+                </Property>
+              </Property>
+            </Property>
+          </Property>
+        </Property>
+        <Property name="Rewards" value="GcGenericRewardTableEntry">
+          <Property name="Id" value="R_CHEFWS_BIOLOO" />
+          <Property name="List" value="GcRewardTableItemList">
+            <Property name="RewardChoice" value="GiveAll" />
+            <Property name="OverrideZeroSeed" value="false" />
+            <Property name="UseInventoryChoiceOverride" value="false" />
+            <Property name="IncrementStat" value="" />
+            <Property name="List">
+              <Property name="List" value="GcRewardTableItem">
+                <Property name="PercentageChance" value="100.0" />
+                <Property name="LabelID" value="" />
+                <Property name="Reward" value="GcRewardSpecificProduct">
+                  <Property name="GcRewardSpecificProduct">
+                    <Property name="Default" value="GcDefaultMissionProductEnum">
+                      <Property name="DefaultProductType" value="None" />
+                    </Property>
+                    <Property name="ID" value="ALIEN_INV_TOKEN" />
+                    <Property name="AmountMin" value="1" />
+                    <Property name="AmountMax" value="2" />
+                    <Property name="HideAmountInMessage" value="false" />
+                    <Property name="ForceSpecialMessage" value="false" />
+                    <Property name="HideInSeasonRewards" value="false" />
+                    <Property name="Silent" value="false" />
+                    <Property name="SeasonRewardListFormat" value="" />
+                    <Property name="RequiresTech" value="" />
+                  </Property>
+                </Property>
+              </Property>
+              <Property name="List" value="GcRewardTableItem">
+                <Property name="PercentageChance" value="100.0" />
+                <Property name="LabelID" value="" />
+                <Property name="Reward" value="GcRewardSpecificProduct">
+                  <Property name="GcRewardSpecificProduct">
+                    <Property name="Default" value="GcDefaultMissionProductEnum">
+                      <Property name="DefaultProductType" value="None" />
+                    </Property>
+                    <Property name="ID" value="ALIEN_TECHBOX" />
+                    <Property name="AmountMin" value="2" />
+                    <Property name="AmountMax" value="3" />
+                    <Property name="HideAmountInMessage" value="false" />
+                    <Property name="ForceSpecialMessage" value="false" />
+                    <Property name="HideInSeasonRewards" value="false" />
+                    <Property name="Silent" value="false" />
+                    <Property name="SeasonRewardListFormat" value="" />
+                    <Property name="RequiresTech" value="" />
+                  </Property>
+                </Property>
+              </Property>
+            </Property>
+          </Property>
+        </Property>
+      </Property>
+      <Property name="Costs">
+        <Property name="Costs" value="GcCostTableEntry">
+          <Property name="Id" value="C_CHEFWS_SONG_X" />
+          <Property name="DisplayCost" value="true" />
+          <Property name="DontCharge" value="false" />
+          <Property name="HideOptionAndDisplayCostOnly" value="false" />
+          <Property name="DisplayOnlyCostIfCantAfford" value="false" />
+          <Property name="HideCostStringIfCanAfford" value="false" />
+          <Property name="RemoveOptionIfCantAfford" value="false" />
+          <Property name="InvertCanAffordOutcome" value="false" />
+          <Property name="MustAffordInCreative" value="false" />
+          <Property name="CommunityContributionValue" value="0" />
+          <Property name="CommunityContributionCapLocID" value="UI_COMMUNITY_CAP_REACHED" />
+          <Property name="CannotAffordOSDMsg" value="" />
+          <Property name="MissionMessageWhenCharged" value="" />
+          <Property name="Cost" value="GcCostProduct">
+            <Property name="GcCostProduct">
+              <Property name="Default" value="GcDefaultMissionProductEnum">
+                <Property name="DefaultProductType" value="None" />
+              </Property>
+              <Property name="Id" value="P_CHEF_SONG_X" />
+              <Property name="Amount" value="1" />
+              <Property name="UseDefaultAmount" value="false" />
+              <Property name="TakeIDFromSeasonData" value="false" />
+            </Property>
+          </Property>
+        </Property>
+      </Property>
+      <Property name="TradingDataOverride" value="GcTradeData">
+        <Property name="AlwaysPresentProducts" />
+        <Property name="AlwaysPresentSubstances" />
+        <Property name="OptionalProducts" />
+        <Property name="OptionalSubstances" />
+        <Property name="AlwaysConsideredBarterProducts" />
+        <Property name="BarterAcceptanceCurve" value="TkCurveType">
+          <Property name="Curve" value="Linear" />
+        </Property>
+        <Property name="BarterPriceMultiplier" value="0.0" />
+        <Property name="BarterItemPreferenceFloor" value="0.0" />
+        <Property name="BarterLoc" value="GcBarterLoc">
+          <Property name="Title" value="UI_BARTER_TITLE" />
+          <Property name="AcceptHeader" value="UI_BARTER_ACCEPT_HEADER" />
+          <Property name="NPCOffer" value="UI_BARTER_NPC_OFFER" />
+          <Property name="PlayerOffer" value="UI_BARTER_PLAYER_OFFER" />
+          <Property name="AcceptEmpty" value="UI_BARTER_ACCEPT_EMPTY" />
+          <Property name="AcceptBad" value="UI_BARTER_ACCEPT_BAD_ALT" />
+          <Property name="AcceptPoor" value="UI_BARTER_ACCEPT_POOR" />
+          <Property name="AcceptFair" value="UI_BARTER_ACCEPT_FAIR" />
+          <Property name="AcceptGood" value="UI_BARTER_ACCEPT_GOOD" />
+          <Property name="AcceptGreat" value="UI_BARTER_ACCEPT_GREAT" />
+          <Property name="BuyButton" value="UI_BARTER_BUTTON" />
+          <Property name="PopupButton" value="UI_BARTER_POPUP_BUTTON" />
+          <Property name="PopupButtonSub" value="UI_BARTER_POPUP_BUTTON_SUB" />
+          <Property name="OfferAcceptedOSD" value="UI_BARTER_OFFER_ACCEPT_OSD" />
+          <Property name="OfferDeclinedOSD" value="UI_BARTER_OFFER_DECLINED_OSD" />
+          <Property name="TransferPopupTitle" value="TRANSFER" />
+          <Property name="TransferPopupDesc" value="TRANSFER_RECEIVE_DESC" />
+          <Property name="TransferPopupButton" value="TRANSFER" />
+          <Property name="TransferPopupButtonSub" value="TRANSFER_DESCSH" />
+        </Property>
+        <Property name="SellButtonSub" value="TRADE_SELL_TO" />
+        <Property name="MinItemsForSale" value="5" />
+        <Property name="MaxItemsForSale" value="15" />
+        <Property name="PercentageOfItemsAreProducts" value="0.3" />
+        <Property name="BuyPriceIncreaseRedThreshold" value="20.0" />
+        <Property name="BuyPriceDecreaseGreenThreshold" value="-10.0" />
+        <Property name="SellPriceIncreaseGreenThreshold" value="10.0" />
+        <Property name="SellPriceDecreaseRedThreshold" value="-20.0" />
+        <Property name="ShowSeasonRewards" value="false" />
+        <Property name="UseBarterForBuy" value="false" />
+        <Property name="MissionMessageToSendOnSuccess" value="" />
+        <Property name="MinAmountOfProductAvailable">
+          <Property name="Poor" value="10" />
+          <Property name="Average" value="10" />
+          <Property name="Wealthy" value="10" />
+          <Property name="Pirate" value="10" />
+        </Property>
+        <Property name="MaxAmountOfProductAvailable">
+          <Property name="Poor" value="100" />
+          <Property name="Average" value="100" />
+          <Property name="Wealthy" value="100" />
+          <Property name="Pirate" value="100" />
+        </Property>
+        <Property name="MinAmountOfSubstanceAvailable">
+          <Property name="Poor" value="100" />
+          <Property name="Average" value="100" />
+          <Property name="Wealthy" value="100" />
+          <Property name="Pirate" value="100" />
+        </Property>
+        <Property name="MaxAmountOfSubstanceAvailable">
+          <Property name="Poor" value="1000" />
+          <Property name="Average" value="1000" />
+          <Property name="Wealthy" value="1000" />
+          <Property name="Pirate" value="1000" />
+        </Property>
+        <Property name="MinExtraSystemProducts">
+          <Property name="Poor" value="2" />
+          <Property name="Average" value="2" />
+          <Property name="Wealthy" value="2" />
+          <Property name="Pirate" value="2" />
+        </Property>
+        <Property name="MaxExtraSystemProducts">
+          <Property name="Poor" value="4" />
+          <Property name="Average" value="4" />
+          <Property name="Wealthy" value="4" />
+          <Property name="Pirate" value="4" />
+        </Property>
+        <Property name="TradeProductsPriceImprovements">
+          <Property name="Poor" value="0.0" />
+          <Property name="Average" value="0.0" />
+          <Property name="Wealthy" value="0.0" />
+          <Property name="Pirate" value="0.0" />
+        </Property>
+      </Property>
+      <Property name="StartConditionTest" value="GcMissionConditionTest">
+        <Property name="ConditionTest" value="AnyFalse" />
+      </Property>
+      <Property name="CancelConditionTest" value="GcMissionConditionTest">
+        <Property name="ConditionTest" value="AnyTrue" />
+      </Property>
+      <Property name="StartIsCancel" value="false" />
+      <Property name="StartingConditions" />
+      <Property name="CancelingConditions">
+        <Property name="CancelingConditions" value="GcMissionConditionMissionMessage">
+          <Property name="GcMissionConditionMissionMessage">
+            <Property name="Message" value="M_CHEFWS_ERR" />
+            <Property name="MessageToFormatSeasonalIDInto" value="" />
+          </Property>
+        </Property>
+      </Property>
+      <Property name="FinalStageVersions" />
+      <Property name="Stages">
+        <Property name="Stages" value="GcGenericMissionStage">
+          <Property name="Versions" />
+          <Property name="Stage" value="GcMissionSequenceGroup">
+            <Property name="GcMissionSequenceGroup">
+              <Property name="Silent" value="true" />
+              <Property name="Icon" value="TkTextureResource">
+                <Property name="Filename" value="" />
+                <Property name="ResHandle" value="GcResource">
+                  <Property name="ResourceID" value="0" />
+                </Property>
+              </Property>
+              <Property name="PageHint" value="GcMissionPageHint">
+                <Property name="MissionPageHint" value="None" />
+              </Property>
+              <Property name="GetPageHintFromInventoryHint" value="false" />
+              <Property name="PageDataLocID" value="" />
+              <Property name="BuildMenuHint" value="" />
+              <Property name="InventoryHint" value="" />
+              <Property name="TerrainTarget" value="" />
+              <Property name="FoodTarget" value="" />
+              <Property name="DebugText" value="" />
+              <Property name="ObjectiveID" value="" />
+              <Property name="ObjectiveTipID" value="" />
+              <Property name="HasCategoryOverride" value="false" />
+              <Property name="OverrideCategory" value="GcMissionCategory">
+                <Property name="MissionCategory" value="Mission" />
+              </Property>
+              <Property name="HasColourOverride" value="false" />
+              <Property name="ColourOverride" value="Colour">
+                <Property name="R" value="1.0" />
+                <Property name="G" value="1.0" />
+                <Property name="B" value="1.0" />
+                <Property name="A" value="1.0" />
+              </Property>
+              <Property name="PrefixTitle" value="false" />
+              <Property name="PrefixTitleText" value="" />
+              <Property name="BlockPinning" value="false" />
+              <Property name="AutoPinRepairs" value="false" />
+              <Property name="BlockSpaceBattles" value="false" />
+              <Property name="ConditionTest" value="GcMissionConditionTest">
+                <Property name="ConditionTest" value="AnyTrue" />
+              </Property>
+              <Property name="HideFromLogIfConditionsMet" value="false" />
+              <Property name="DoConsequencesIfNeverActivated" value="true" />
+              <Property name="RepeatLogic" value="None" />
+              <Property name="IconStyle" value="Default" />
+              <Property name="GalMapPathOverride" value="None" />
+              <Property name="SpecialButtonIcon" value="TkInputEnum">
+                <Property name="InputButton" value="None" />
+              </Property>
+              <Property name="ObjectiveFormatting" value="GcObjectiveTextFormatOptions">
+                <Property name="ObjectivesCanBeFormattedBySequences" value="false" />
+                <Property name="FormattableObjective" value="" />
+                <Property name="FormattableObjectiveTip" value="" />
+              </Property>
+              <Property name="SeasonalObjectiveOverrides" value="GcSeasonalObjectiveOverrides">
+                <Property name="ApplicableSeasonNumbers" />
+                <Property name="OverrideObjective" value="" />
+                <Property name="OverrideObjectiveTip" value="" />
+              </Property>
+              <Property name="SurveyTarget" value="GcTargetMissionSurveyOptions">
+                <Property name="TargetMissionSurveyId" value="" />
+                <Property name="TargetMissionSurveyDefinitelyExists" value="false" />
+                <Property name="ForceSurveyTextForAllSequencesInThisGroup" value="false" />
+                <Property name="TargetMissionSurveyDefinitelyExistsWithResourceHint" value="" />
+                <Property name="SurveyInactiveHint" value="" />
+                <Property name="SurveySwapHint" value="" />
+                <Property name="SurveyHint" value="" />
+                <Property name="SurveyVehicleHint" value="" />
+              </Property>
+              <Property name="CustomNotifyTimers" value="GcCustomNotifyTimerOptions">
+                <Property name="HasCustomNotifyTimer" value="false" />
+                <Property name="NotifyDisplayTime" value="0.0" />
+                <Property name="NotifyPauseTime" value="0.0" />
+              </Property>
+              <Property name="Conditions">
+                <Property name="Conditions" value="GcMissionConditionMissionMessageWarp">
+                  <Property name="GcMissionConditionMissionMessageWarp" />
+                </Property>
+                <Property name="Conditions" value="GcMissionConditionMissionMessagePortal">
+                  <Property name="GcMissionConditionMissionMessagePortal" />
+                </Property>
+              </Property>
+              <Property name="Consequences" />
+              <Property name="Stages">
+                <Property name="Stages" value="GcGenericMissionStage">
+                  <Property name="Versions" />
+                  <Property name="Stage" value="GcMissionSequenceGroup">
+                    <Property name="GcMissionSequenceGroup">
+                      <Property name="Silent" value="true" />
+                      <Property name="Icon" value="TkTextureResource">
+                        <Property name="Filename" value="" />
+                        <Property name="ResHandle" value="GcResource">
+                          <Property name="ResourceID" value="0" />
+                        </Property>
+                      </Property>
+                      <Property name="PageHint" value="GcMissionPageHint">
+                        <Property name="MissionPageHint" value="None" />
+                      </Property>
+                      <Property name="GetPageHintFromInventoryHint" value="false" />
+                      <Property name="PageDataLocID" value="" />
+                      <Property name="BuildMenuHint" value="" />
+                      <Property name="InventoryHint" value="" />
+                      <Property name="TerrainTarget" value="" />
+                      <Property name="FoodTarget" value="" />
+                      <Property name="DebugText" value="" />
+                      <Property name="ObjectiveID" value="" />
+                      <Property name="ObjectiveTipID" value="" />
+                      <Property name="HasCategoryOverride" value="false" />
+                      <Property name="OverrideCategory" value="GcMissionCategory">
+                        <Property name="MissionCategory" value="Mission" />
+                      </Property>
+                      <Property name="HasColourOverride" value="false" />
+                      <Property name="ColourOverride" value="Colour">
+                        <Property name="R" value="1.0" />
+                        <Property name="G" value="1.0" />
+                        <Property name="B" value="1.0" />
+                        <Property name="A" value="1.0" />
+                      </Property>
+                      <Property name="PrefixTitle" value="false" />
+                      <Property name="PrefixTitleText" value="" />
+                      <Property name="BlockPinning" value="false" />
+                      <Property name="AutoPinRepairs" value="false" />
+                      <Property name="BlockSpaceBattles" value="false" />
+                      <Property name="ConditionTest" value="GcMissionConditionTest">
+                        <Property name="ConditionTest" value="AnyTrue" />
+                      </Property>
+                      <Property name="HideFromLogIfConditionsMet" value="false" />
+                      <Property name="DoConsequencesIfNeverActivated" value="true" />
+                      <Property name="RepeatLogic" value="None" />
+                      <Property name="IconStyle" value="Default" />
+                      <Property name="GalMapPathOverride" value="None" />
+                      <Property name="SpecialButtonIcon" value="TkInputEnum">
+                        <Property name="InputButton" value="None" />
+                      </Property>
+                      <Property name="ObjectiveFormatting" value="GcObjectiveTextFormatOptions">
+                        <Property name="ObjectivesCanBeFormattedBySequences" value="false" />
+                        <Property name="FormattableObjective" value="" />
+                        <Property name="FormattableObjectiveTip" value="" />
+                      </Property>
+                      <Property name="SeasonalObjectiveOverrides" value="GcSeasonalObjectiveOverrides">
+                        <Property name="ApplicableSeasonNumbers" />
+                        <Property name="OverrideObjective" value="" />
+                        <Property name="OverrideObjectiveTip" value="" />
+                      </Property>
+                      <Property name="SurveyTarget" value="GcTargetMissionSurveyOptions">
+                        <Property name="TargetMissionSurveyId" value="" />
+                        <Property name="TargetMissionSurveyDefinitelyExists" value="false" />
+                        <Property name="ForceSurveyTextForAllSequencesInThisGroup" value="false" />
+                        <Property name="TargetMissionSurveyDefinitelyExistsWithResourceHint" value="" />
+                        <Property name="SurveyInactiveHint" value="" />
+                        <Property name="SurveySwapHint" value="" />
+                        <Property name="SurveyHint" value="" />
+                        <Property name="SurveyVehicleHint" value="" />
+                      </Property>
+                      <Property name="CustomNotifyTimers" value="GcCustomNotifyTimerOptions">
+                        <Property name="HasCustomNotifyTimer" value="false" />
+                        <Property name="NotifyDisplayTime" value="0.0" />
+                        <Property name="NotifyPauseTime" value="0.0" />
+                      </Property>
+                      <Property name="Conditions">
+                        <Property name="Conditions" value="GcMissionConditionMissionMessage">
+                          <Property name="GcMissionConditionMissionMessage">
+                            <Property name="Message" value="M_CHEFWS_ARVL" />
+                            <Property name="MessageToFormatSeasonalIDInto" value="" />
+                          </Property>
+                        </Property>
+                      </Property>
+                      <Property name="Consequences" />
+                      <Property name="Stages">
+                        <Property name="Stages" value="GcGenericMissionStage">
+                          <Property name="Versions" />
+                          <Property name="Stage" value="GcMissionSequenceGroup">
+                            <Property name="GcMissionSequenceGroup">
+                              <Property name="Silent" value="true" />
+                              <Property name="Icon" value="TkTextureResource">
+                                <Property name="Filename" value="" />
+                                <Property name="ResHandle" value="GcResource">
+                                  <Property name="ResourceID" value="0" />
+                                </Property>
+                              </Property>
+                              <Property name="PageHint" value="GcMissionPageHint">
+                                <Property name="MissionPageHint" value="None" />
+                              </Property>
+                              <Property name="GetPageHintFromInventoryHint" value="false" />
+                              <Property name="PageDataLocID" value="" />
+                              <Property name="BuildMenuHint" value="" />
+                              <Property name="InventoryHint" value="" />
+                              <Property name="TerrainTarget" value="" />
+                              <Property name="FoodTarget" value="" />
+                              <Property name="DebugText" value="" />
+                              <Property name="ObjectiveID" value="" />
+                              <Property name="ObjectiveTipID" value="" />
+                              <Property name="HasCategoryOverride" value="false" />
+                              <Property name="OverrideCategory" value="GcMissionCategory">
+                                <Property name="MissionCategory" value="Mission" />
+                              </Property>
+                              <Property name="HasColourOverride" value="false" />
+                              <Property name="ColourOverride" value="Colour">
+                                <Property name="R" value="1.0" />
+                                <Property name="G" value="1.0" />
+                                <Property name="B" value="1.0" />
+                                <Property name="A" value="1.0" />
+                              </Property>
+                              <Property name="PrefixTitle" value="false" />
+                              <Property name="PrefixTitleText" value="" />
+                              <Property name="BlockPinning" value="false" />
+                              <Property name="AutoPinRepairs" value="false" />
+                              <Property name="BlockSpaceBattles" value="false" />
+                              <Property name="ConditionTest" value="GcMissionConditionTest">
+                                <Property name="ConditionTest" value="AnyTrue" />
+                              </Property>
+                              <Property name="HideFromLogIfConditionsMet" value="false" />
+                              <Property name="DoConsequencesIfNeverActivated" value="true" />
+                              <Property name="RepeatLogic" value="None" />
+                              <Property name="IconStyle" value="Default" />
+                              <Property name="GalMapPathOverride" value="None" />
+                              <Property name="SpecialButtonIcon" value="TkInputEnum">
+                                <Property name="InputButton" value="None" />
+                              </Property>
+                              <Property name="ObjectiveFormatting" value="GcObjectiveTextFormatOptions">
+                                <Property name="ObjectivesCanBeFormattedBySequences" value="false" />
+                                <Property name="FormattableObjective" value="" />
+                                <Property name="FormattableObjectiveTip" value="" />
+                              </Property>
+                              <Property name="SeasonalObjectiveOverrides" value="GcSeasonalObjectiveOverrides">
+                                <Property name="ApplicableSeasonNumbers" />
+                                <Property name="OverrideObjective" value="" />
+                                <Property name="OverrideObjectiveTip" value="" />
+                              </Property>
+                              <Property name="SurveyTarget" value="GcTargetMissionSurveyOptions">
+                                <Property name="TargetMissionSurveyId" value="" />
+                                <Property name="TargetMissionSurveyDefinitelyExists" value="false" />
+                                <Property name="ForceSurveyTextForAllSequencesInThisGroup" value="false" />
+                                <Property name="TargetMissionSurveyDefinitelyExistsWithResourceHint" value="" />
+                                <Property name="SurveyInactiveHint" value="" />
+                                <Property name="SurveySwapHint" value="" />
+                                <Property name="SurveyHint" value="" />
+                                <Property name="SurveyVehicleHint" value="" />
+                              </Property>
+                              <Property name="CustomNotifyTimers" value="GcCustomNotifyTimerOptions">
+                                <Property name="HasCustomNotifyTimer" value="false" />
+                                <Property name="NotifyDisplayTime" value="0.0" />
+                                <Property name="NotifyPauseTime" value="0.0" />
+                              </Property>
+                              <Property name="Conditions">
+                                <Property name="Conditions" value="GcMissionConditionOnMultiplayerMission">
+                                  <Property name="GcMissionConditionOnMultiplayerMission">
+                                    <Property name="IncludeCorvetteMissions" value="false" />
+                                  </Property>
+                                </Property>
+                              </Property>
+                              <Property name="Consequences" />
+                              <Property name="Stages">
+                                <Property name="Stages" value="GcGenericMissionStage">
+                                  <Property name="Versions" />
+                                  <Property name="Stage" value="GcMissionSequenceGroup">
+                                    <Property name="GcMissionSequenceGroup">
+                                      <Property name="Silent" value="true" />
+                                      <Property name="Icon" value="TkTextureResource">
+                                        <Property name="Filename" value="TEXTURES/UI/HUD/ICONS/MISSIONS/MISSION.BIOFRIG.DDS" />
+                                        <Property name="ResHandle" value="GcResource">
+                                          <Property name="ResourceID" value="0" />
+                                        </Property>
+                                      </Property>
+                                      <Property name="PageHint" value="GcMissionPageHint">
+                                        <Property name="MissionPageHint" value="None" />
+                                      </Property>
+                                      <Property name="GetPageHintFromInventoryHint" value="false" />
+                                      <Property name="PageDataLocID" value="" />
+                                      <Property name="BuildMenuHint" value="" />
+                                      <Property name="InventoryHint" value="" />
+                                      <Property name="TerrainTarget" value="" />
+                                      <Property name="FoodTarget" value="" />
+                                      <Property name="DebugText" value="" />
+                                      <Property name="ObjectiveID" value="" />
+                                      <Property name="ObjectiveTipID" value="" />
+                                      <Property name="HasCategoryOverride" value="true" />
+                                      <Property name="OverrideCategory" value="GcMissionCategory">
+                                        <Property name="MissionCategory" value="Urgent" />
+                                      </Property>
+                                      <Property name="HasColourOverride" value="false" />
+                                      <Property name="ColourOverride" value="Colour">
+                                        <Property name="R" value="1.0" />
+                                        <Property name="G" value="1.0" />
+                                        <Property name="B" value="1.0" />
+                                        <Property name="A" value="1.0" />
+                                      </Property>
+                                      <Property name="PrefixTitle" value="true" />
+                                      <Property name="PrefixTitleText" value="ALCH_CHEF_WHALE_TITLE" />
+                                      <Property name="BlockPinning" value="false" />
+                                      <Property name="AutoPinRepairs" value="false" />
+                                      <Property name="BlockSpaceBattles" value="false" />
+                                      <Property name="ConditionTest" value="GcMissionConditionTest">
+                                        <Property name="ConditionTest" value="AnyFalse" />
+                                      </Property>
+                                      <Property name="HideFromLogIfConditionsMet" value="false" />
+                                      <Property name="DoConsequencesIfNeverActivated" value="true" />
+                                      <Property name="RepeatLogic" value="None" />
+                                      <Property name="IconStyle" value="Default" />
+                                      <Property name="GalMapPathOverride" value="None" />
+                                      <Property name="SpecialButtonIcon" value="TkInputEnum">
+                                        <Property name="InputButton" value="None" />
+                                      </Property>
+                                      <Property name="ObjectiveFormatting" value="GcObjectiveTextFormatOptions">
+                                        <Property name="ObjectivesCanBeFormattedBySequences" value="false" />
+                                        <Property name="FormattableObjective" value="" />
+                                        <Property name="FormattableObjectiveTip" value="" />
+                                      </Property>
+                                      <Property name="SeasonalObjectiveOverrides" value="GcSeasonalObjectiveOverrides">
+                                        <Property name="ApplicableSeasonNumbers" />
+                                        <Property name="OverrideObjective" value="" />
+                                        <Property name="OverrideObjectiveTip" value="" />
+                                      </Property>
+                                      <Property name="SurveyTarget" value="GcTargetMissionSurveyOptions">
+                                        <Property name="TargetMissionSurveyId" value="" />
+                                        <Property name="TargetMissionSurveyDefinitelyExists" value="false" />
+                                        <Property name="ForceSurveyTextForAllSequencesInThisGroup" value="false" />
+                                        <Property name="TargetMissionSurveyDefinitelyExistsWithResourceHint" value="" />
+                                        <Property name="SurveyInactiveHint" value="" />
+                                        <Property name="SurveySwapHint" value="" />
+                                        <Property name="SurveyHint" value="" />
+                                        <Property name="SurveyVehicleHint" value="" />
+                                      </Property>
+                                      <Property name="CustomNotifyTimers" value="GcCustomNotifyTimerOptions">
+                                        <Property name="HasCustomNotifyTimer" value="false" />
+                                        <Property name="NotifyDisplayTime" value="0.0" />
+                                        <Property name="NotifyPauseTime" value="0.0" />
+                                      </Property>
+                                      <Property name="Conditions">
+                                        <Property name="Conditions" value="GcMissionConditionHasProduct">
+                                          <Property name="GcMissionConditionHasProduct">
+                                            <Property name="Default" value="GcDefaultMissionProductEnum">
+                                              <Property name="DefaultProductType" value="None" />
+                                            </Property>
+                                            <Property name="Product" value="P_CHEF_SONG_X" />
+                                            <Property name="Amount" value="1" />
+                                            <Property name="UseDefaultAmount" value="false" />
+                                            <Property name="SyncWithMissionFireteam" value="false" />
+                                            <Property name="MustBeImmediatelyAccessible" value="false" />
+                                            <Property name="ForceSearchFreighterAndChests" value="true" />
+                                            <Property name="SearchEveryShip" value="true" />
+                                            <Property name="SearchGrave" value="false" />
+                                            <Property name="SearchCookingIngredients" value="false" />
+                                            <Property name="TakeAmountFromSeasonData" value="false" />
+                                            <Property name="TakeIdFromSeasonData" value="false" />
+                                            <Property name="DependentOnSeasonMilestone" value="false" />
+                                            <Property name="UseAmountToAffordRecipe" value="" />
+                                            <Property name="TakeAffordRecipeFromSeasonData" value="false" />
+                                            <Property name="UseAffordRecipeForTextFormatting" value="false" />
+                                            <Property name="Purpose" value="GcItemNeedPurpose">
+                                              <Property name="ItemPurpose" value="None" />
+                                            </Property>
+                                            <Property name="AllowedToSetInventoryHint" value="false" />
+                                            <Property name="ForceInventoryHintAtAllTimes" value="false" />
+                                            <Property name="UseProductIconAsMissionIcon" value="false" />
+                                            <Property name="DoNotFormatText" value="false" />
+                                            <Property name="UseProductCategory" value="false" />
+                                            <Property name="ProductCategory" value="GcProductCategory">
+                                              <Property name="ProductCategory" value="Component" />
+                                            </Property>
+                                            <Property name="TeachIfNotKnown" value="false" />
+                                          </Property>
+                                        </Property>
+                                      </Property>
+                                      <Property name="Consequences" />
+                                      <Property name="Stages">
+                                        <Property name="Stages" value="GcGenericMissionStage">
+                                          <Property name="Versions" />
+                                          <Property name="Stage" value="GcMissionSequenceShowMessage">
+                                            <Property name="GcMissionSequenceShowMessage">
+                                              <Property name="Category" value="GcMissionCategory">
+                                                <Property name="MissionCategory" value="Mission" />
+                                              </Property>
+                                              <Property name="Time" value="0.0" />
+                                              <Property name="Message" value="" />
+                                              <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                                                <Property name="AkEvent" value="INVALID_EVENT" />
+                                              </Property>
+                                              <Property name="OSDTime" value="4.0" />
+                                              <Property name="OSDMessage" value="ALCH_CHEF_WHALE_START_OSD" />
+                                              <Property name="OSDMessageSubtitle" value="" />
+                                              <Property name="OSDMessageColour" value="Colour">
+                                                <Property name="R" value="1.0" />
+                                                <Property name="G" value="1.0" />
+                                                <Property name="B" value="1.0" />
+                                                <Property name="A" value="1.0" />
+                                              </Property>
+                                              <Property name="OSDMessageStyle" value="Standard" />
+                                              <Property name="OSDUseMissionIcon" value="true" />
+                                              <Property name="DisableIcon" value="false" />
+                                              <Property name="DisableTitlePrefix" value="false" />
+                                              <Property name="StatusMessageDefinition" value="" />
+                                              <Property name="CameraShakeID" value="" />
+                                              <Property name="DoCameraShake" value="false" />
+                                              <Property name="DoWhiteout" value="false" />
+                                              <Property name="EffectTime" value="0.0" />
+                                              <Property name="UseConditionsForTextFormatting" />
+                                              <Property name="DebugText" value="" />
+                                            </Property>
+                                          </Property>
+                                        </Property>
+                                        <Property name="Stages" value="GcGenericMissionStage">
+                                          <Property name="Versions" />
+                                          <Property name="Stage" value="GcMissionSequenceCreateSpecificPulseEncounter">
+                                            <Property name="GcMissionSequenceCreateSpecificPulseEncounter">
+                                              <Property name="Message" value="ALCH_CHEF_WHALE_NEARBY_MSG1" />
+                                              <Property name="MessageNoShip" value="ALCH_CHEF_WHALE_NEARBY_MSG2" />
+                                              <Property name="MessageNotPulsing" value="ALCH_CHEF_WHALE_NEARBY_MSG3" />
+                                              <Property name="MessageSignalBlocked" value="ALCH_CHEF_WHALE_NEARBY_MSG4" />
+                                              <Property name="MessageEncounterReady" value="" />
+                                              <Property name="ShipHUDOverrideWhenReady" value="" />
+                                              <Property name="MinTimeInPulse" value="5.5" />
+                                              <Property name="PulseEncounterID" value="PE_CHEF_SONG" />
+                                              <Property name="TakeEncounterIDFromSeasonData" value="false" />
+                                              <Property name="AllowAnyEncounter" value="false" />
+                                              <Property name="Silent" value="false" />
+                                              <Property name="AllowOutsideShipInSpace" value="false" />
+                                              <Property name="AllowAnywhere" value="false" />
+                                              <Property name="EnsureClearOfSolarSystemObjects" value="false" />
+                                              <Property name="ExtraEncounterIDs" />
+                                              <Property name="DebugText" value="" />
+                                            </Property>
+                                          </Property>
+                                        </Property>
+                                        <Property name="Stages" value="GcGenericMissionStage">
+                                          <Property name="Versions" />
+                                          <Property name="Stage" value="GcMissionSequenceBroadcastMessage">
+                                            <Property name="GcMissionSequenceBroadcastMessage">
+                                              <Property name="DebugText" value="" />
+                                              <Property name="MessageID" value="M_CHEFWS_ARVL" />
+                                              <Property name="Seeded" value="false" />
+                                              <Property name="SendToAllMatchingSeeds" value="false" />
+                                              <Property name="Multiplayer" value="false" />
+                                              <Property name="CanSendToInactive" value="false" />
+                                              <Property name="BroadcastToActiveMultiplayerMission" value="false" />
+                                            </Property>
+                                          </Property>
+                                        </Property>
+                                        <Property name="Stages" value="GcGenericMissionStage">
+                                          <Property name="Versions" />
+                                          <Property name="Stage" value="GcMissionSequenceWait">
+                                            <Property name="GcMissionSequenceWait">
+                                              <Property name="Time" value="2.0" />
+                                              <Property name="DebugText" value="" />
+                                              <Property name="SuppressMessages" value="false" />
+                                              <Property name="MultiplyTimeBySeasonValue" value="false" />
+                                            </Property>
+                                          </Property>
+                                        </Property>
+                                      </Property>
+                                    </Property>
+                                  </Property>
+                                </Property>
+                                <Property name="Stages" value="GcGenericMissionStage">
+                                  <Property name="Versions" />
+                                  <Property name="Stage" value="GcMissionSequenceBroadcastMessage">
+                                    <Property name="GcMissionSequenceBroadcastMessage">
+                                      <Property name="DebugText" value="" />
+                                      <Property name="MessageID" value="M_CHEFWS_ERR" />
+                                      <Property name="Seeded" value="false" />
+                                      <Property name="SendToAllMatchingSeeds" value="false" />
+                                      <Property name="Multiplayer" value="false" />
+                                      <Property name="CanSendToInactive" value="false" />
+                                      <Property name="BroadcastToActiveMultiplayerMission" value="false" />
+                                    </Property>
+                                  </Property>
+                                </Property>
+                                <Property name="Stages" value="GcGenericMissionStage">
+                                  <Property name="Versions" />
+                                  <Property name="Stage" value="GcMissionSequenceWait">
+                                    <Property name="GcMissionSequenceWait">
+                                      <Property name="Time" value="2.0" />
+                                      <Property name="DebugText" value="" />
+                                      <Property name="SuppressMessages" value="false" />
+                                      <Property name="MultiplyTimeBySeasonValue" value="false" />
+                                    </Property>
+                                  </Property>
+                                </Property>
+                              </Property>
+                            </Property>
+                          </Property>
+                        </Property>
+                        <Property name="Stages" value="GcGenericMissionStage">
+                          <Property name="Versions" />
+                          <Property name="Stage" value="GcMissionSequenceShowMessage">
+                            <Property name="GcMissionSequenceShowMessage">
+                              <Property name="Category" value="GcMissionCategory">
+                                <Property name="MissionCategory" value="Mission" />
+                              </Property>
+                              <Property name="Time" value="0.0" />
+                              <Property name="Message" value="" />
+                              <Property name="AudioEvent" value="GcAudioWwiseEvents">
+                                <Property name="AkEvent" value="INVALID_EVENT" />
+                              </Property>
+                              <Property name="OSDTime" value="4.0" />
+                              <Property name="OSDMessage" value="ALCH_CHEF_WHALE_MP_ERR_OSD" />
+                              <Property name="OSDMessageSubtitle" value="" />
+                              <Property name="OSDMessageColour" value="Colour">
+                                <Property name="R" value="1.0" />
+                                <Property name="G" value="1.0" />
+                                <Property name="B" value="1.0" />
+                                <Property name="A" value="1.0" />
+                              </Property>
+                              <Property name="OSDMessageStyle" value="Standard" />
+                              <Property name="OSDUseMissionIcon" value="true" />
+                              <Property name="DisableIcon" value="false" />
+                              <Property name="DisableTitlePrefix" value="false" />
+                              <Property name="StatusMessageDefinition" value="" />
+                              <Property name="CameraShakeID" value="" />
+                              <Property name="DoCameraShake" value="false" />
+                              <Property name="DoWhiteout" value="false" />
+                              <Property name="EffectTime" value="0.0" />
+                              <Property name="UseConditionsForTextFormatting" />
+                              <Property name="DebugText" value="" />
+                            </Property>
+                          </Property>
+                        </Property>
+                        <Property name="Stages" value="GcGenericMissionStage">
+                          <Property name="Versions" />
+                          <Property name="Stage" value="GcMissionSequenceBroadcastMessage">
+                            <Property name="GcMissionSequenceBroadcastMessage">
+                              <Property name="DebugText" value="" />
+                              <Property name="MessageID" value="M_CHEFWS_ERR" />
+                              <Property name="Seeded" value="false" />
+                              <Property name="SendToAllMatchingSeeds" value="false" />
+                              <Property name="Multiplayer" value="false" />
+                              <Property name="CanSendToInactive" value="false" />
+                              <Property name="BroadcastToActiveMultiplayerMission" value="false" />
+                            </Property>
+                          </Property>
+                        </Property>
+                        <Property name="Stages" value="GcGenericMissionStage">
+                          <Property name="Versions" />
+                          <Property name="Stage" value="GcMissionSequenceWait">
+                            <Property name="GcMissionSequenceWait">
+                              <Property name="Time" value="2.0" />
+                              <Property name="DebugText" value="" />
+                              <Property name="SuppressMessages" value="false" />
+                              <Property name="MultiplyTimeBySeasonValue" value="false" />
+                            </Property>
+                          </Property>
+                        </Property>
+                      </Property>
+                    </Property>
+                  </Property>
+                </Property>
+                <Property name="Stages" value="GcGenericMissionStage">
+                  <Property name="Versions" />
+                  <Property name="Stage" value="GcMissionSequenceGroup">
+                    <Property name="GcMissionSequenceGroup">
+                      <Property name="Silent" value="true" />
+                      <Property name="Icon" value="TkTextureResource">
+                        <Property name="Filename" value="" />
+                        <Property name="ResHandle" value="GcResource">
+                          <Property name="ResourceID" value="0" />
+                        </Property>
+                      </Property>
+                      <Property name="PageHint" value="GcMissionPageHint">
+                        <Property name="MissionPageHint" value="None" />
+                      </Property>
+                      <Property name="GetPageHintFromInventoryHint" value="false" />
+                      <Property name="PageDataLocID" value="" />
+                      <Property name="BuildMenuHint" value="" />
+                      <Property name="InventoryHint" value="" />
+                      <Property name="TerrainTarget" value="" />
+                      <Property name="FoodTarget" value="" />
+                      <Property name="DebugText" value="" />
+                      <Property name="ObjectiveID" value="" />
+                      <Property name="ObjectiveTipID" value="" />
+                      <Property name="HasCategoryOverride" value="false" />
+                      <Property name="OverrideCategory" value="GcMissionCategory">
+                        <Property name="MissionCategory" value="Mission" />
+                      </Property>
+                      <Property name="HasColourOverride" value="false" />
+                      <Property name="ColourOverride" value="Colour">
+                        <Property name="R" value="1.0" />
+                        <Property name="G" value="1.0" />
+                        <Property name="B" value="1.0" />
+                        <Property name="A" value="1.0" />
+                      </Property>
+                      <Property name="PrefixTitle" value="false" />
+                      <Property name="PrefixTitleText" value="" />
+                      <Property name="BlockPinning" value="false" />
+                      <Property name="AutoPinRepairs" value="false" />
+                      <Property name="BlockSpaceBattles" value="false" />
+                      <Property name="ConditionTest" value="GcMissionConditionTest">
+                        <Property name="ConditionTest" value="AnyTrue" />
+                      </Property>
+                      <Property name="HideFromLogIfConditionsMet" value="false" />
+                      <Property name="DoConsequencesIfNeverActivated" value="true" />
+                      <Property name="RepeatLogic" value="None" />
+                      <Property name="IconStyle" value="Default" />
+                      <Property name="GalMapPathOverride" value="None" />
+                      <Property name="SpecialButtonIcon" value="TkInputEnum">
+                        <Property name="InputButton" value="None" />
+                      </Property>
+                      <Property name="ObjectiveFormatting" value="GcObjectiveTextFormatOptions">
+                        <Property name="ObjectivesCanBeFormattedBySequences" value="false" />
+                        <Property name="FormattableObjective" value="" />
+                        <Property name="FormattableObjectiveTip" value="" />
+                      </Property>
+                      <Property name="SeasonalObjectiveOverrides" value="GcSeasonalObjectiveOverrides">
+                        <Property name="ApplicableSeasonNumbers" />
+                        <Property name="OverrideObjective" value="" />
+                        <Property name="OverrideObjectiveTip" value="" />
+                      </Property>
+                      <Property name="SurveyTarget" value="GcTargetMissionSurveyOptions">
+                        <Property name="TargetMissionSurveyId" value="" />
+                        <Property name="TargetMissionSurveyDefinitelyExists" value="false" />
+                        <Property name="ForceSurveyTextForAllSequencesInThisGroup" value="false" />
+                        <Property name="TargetMissionSurveyDefinitelyExistsWithResourceHint" value="" />
+                        <Property name="SurveyInactiveHint" value="" />
+                        <Property name="SurveySwapHint" value="" />
+                        <Property name="SurveyHint" value="" />
+                        <Property name="SurveyVehicleHint" value="" />
+                      </Property>
+                      <Property name="CustomNotifyTimers" value="GcCustomNotifyTimerOptions">
+                        <Property name="HasCustomNotifyTimer" value="false" />
+                        <Property name="NotifyDisplayTime" value="0.0" />
+                        <Property name="NotifyPauseTime" value="0.0" />
+                      </Property>
+                      <Property name="Conditions">
+                        <Property name="Conditions" value="GcMissionConditionShipEngineStatus">
+                          <Property name="GcMissionConditionShipEngineStatus">
+                            <Property name="EngineStatus" value="Pulsing" />
+                          </Property>
+                        </Property>
+                        <Property name="Conditions" value="GcMissionConditionMissionMessage">
+                          <Property name="GcMissionConditionMissionMessage">
+                            <Property name="Message" value="M_CHEFWS_DONE" />
+                            <Property name="MessageToFormatSeasonalIDInto" value="" />
+                          </Property>
+                        </Property>
+                      </Property>
+                      <Property name="Consequences" />
+                      <Property name="Stages">
+                        <Property name="Stages" value="GcGenericMissionStage">
+                          <Property name="Versions" />
+                          <Property name="Stage" value="GcMissionSequenceGroup">
+                            <Property name="GcMissionSequenceGroup">
+                              <Property name="Silent" value="true" />
+                              <Property name="Icon" value="TkTextureResource">
+                                <Property name="Filename" value="" />
+                                <Property name="ResHandle" value="GcResource">
+                                  <Property name="ResourceID" value="0" />
+                                </Property>
+                              </Property>
+                              <Property name="PageHint" value="GcMissionPageHint">
+                                <Property name="MissionPageHint" value="None" />
+                              </Property>
+                              <Property name="GetPageHintFromInventoryHint" value="false" />
+                              <Property name="PageDataLocID" value="" />
+                              <Property name="BuildMenuHint" value="" />
+                              <Property name="InventoryHint" value="" />
+                              <Property name="TerrainTarget" value="" />
+                              <Property name="FoodTarget" value="" />
+                              <Property name="DebugText" value="" />
+                              <Property name="ObjectiveID" value="" />
+                              <Property name="ObjectiveTipID" value="" />
+                              <Property name="HasCategoryOverride" value="false" />
+                              <Property name="OverrideCategory" value="GcMissionCategory">
+                                <Property name="MissionCategory" value="Mission" />
+                              </Property>
+                              <Property name="HasColourOverride" value="false" />
+                              <Property name="ColourOverride" value="Colour">
+                                <Property name="R" value="1.0" />
+                                <Property name="G" value="1.0" />
+                                <Property name="B" value="1.0" />
+                                <Property name="A" value="1.0" />
+                              </Property>
+                              <Property name="PrefixTitle" value="false" />
+                              <Property name="PrefixTitleText" value="" />
+                              <Property name="BlockPinning" value="false" />
+                              <Property name="AutoPinRepairs" value="false" />
+                              <Property name="BlockSpaceBattles" value="false" />
+                              <Property name="ConditionTest" value="GcMissionConditionTest">
+                                <Property name="ConditionTest" value="AnyFalse" />
+                              </Property>
+                              <Property name="HideFromLogIfConditionsMet" value="false" />
+                              <Property name="DoConsequencesIfNeverActivated" value="true" />
+                              <Property name="RepeatLogic" value="None" />
+                              <Property name="IconStyle" value="Default" />
+                              <Property name="GalMapPathOverride" value="None" />
+                              <Property name="SpecialButtonIcon" value="TkInputEnum">
+                                <Property name="InputButton" value="None" />
+                              </Property>
+                              <Property name="ObjectiveFormatting" value="GcObjectiveTextFormatOptions">
+                                <Property name="ObjectivesCanBeFormattedBySequences" value="false" />
+                                <Property name="FormattableObjective" value="" />
+                                <Property name="FormattableObjectiveTip" value="" />
+                              </Property>
+                              <Property name="SeasonalObjectiveOverrides" value="GcSeasonalObjectiveOverrides">
+                                <Property name="ApplicableSeasonNumbers" />
+                                <Property name="OverrideObjective" value="" />
+                                <Property name="OverrideObjectiveTip" value="" />
+                              </Property>
+                              <Property name="SurveyTarget" value="GcTargetMissionSurveyOptions">
+                                <Property name="TargetMissionSurveyId" value="" />
+                                <Property name="TargetMissionSurveyDefinitelyExists" value="false" />
+                                <Property name="ForceSurveyTextForAllSequencesInThisGroup" value="false" />
+                                <Property name="TargetMissionSurveyDefinitelyExistsWithResourceHint" value="" />
+                                <Property name="SurveyInactiveHint" value="" />
+                                <Property name="SurveySwapHint" value="" />
+                                <Property name="SurveyHint" value="" />
+                                <Property name="SurveyVehicleHint" value="" />
+                              </Property>
+                              <Property name="CustomNotifyTimers" value="GcCustomNotifyTimerOptions">
+                                <Property name="HasCustomNotifyTimer" value="false" />
+                                <Property name="NotifyDisplayTime" value="0.0" />
+                                <Property name="NotifyPauseTime" value="0.0" />
+                              </Property>
+                              <Property name="Conditions">
+                                <Property name="Conditions" value="GcMissionConditionHasFreighter">
+                                  <Property name="GcMissionConditionHasFreighter">
+                                    <Property name="FreighterInCurrentSystem" value="DontCare" />
+                                  </Property>
+                                </Property>
+                                <Property name="Conditions" value="GcMissionConditionFrigateCount">
+                                  <Property name="GcMissionConditionFrigateCount">
+                                    <Property name="FrigateCount" value="30" />
+                                    <Property name="Test" value="TkEqualityEnum">
+                                      <Property name="EqualityEnum" value="Equal" />
+                                    </Property>
+                                  </Property>
+                                </Property>
+                              </Property>
+                              <Property name="Consequences" />
+                              <Property name="Stages">
+                                <Property name="Stages" value="GcGenericMissionStage">
+                                  <Property name="Versions" />
+                                  <Property name="Stage" value="GcMissionSequenceWait">
+                                    <Property name="GcMissionSequenceWait">
+                                      <Property name="Time" value="5.0" />
+                                      <Property name="DebugText" value="" />
+                                      <Property name="SuppressMessages" value="false" />
+                                      <Property name="MultiplyTimeBySeasonValue" value="false" />
+                                    </Property>
+                                  </Property>
+                                </Property>
+                                <Property name="Stages" value="GcGenericMissionStage">
+                                  <Property name="Versions" />
+                                  <Property name="Stage" value="GcMissionSequenceCommunicator">
+                                    <Property name="GcMissionSequenceCommunicator">
+                                      <Property name="Message" value="" />
+                                      <Property name="VRMessage" value="" />
+                                      <Property name="OptionalWaitMessage" value="" />
+                                      <Property name="OSDMessage" value="UI_HAIL_BIOFRIG_OSD" />
+                                      <Property name="Comms" value="GcPlayerCommunicatorMessage">
+                                        <Property name="Dialog" value="D_CHEF_SONG" />
+                                        <Property name="ShowHologram" value="false" />
+                                        <Property name="CommunicatorType" value="Generic" />
+                                        <Property name="RaceOverride" value="GcAlienRace">
+                                          <Property name="AlienRace" value="None" />
+                                        </Property>
+                                        <Property name="ShipHUDOverride" value="UI_HAIL_BIOFRIG_HUD" />
+                                        <Property name="HailAudioOverride" value="GcAudioWwiseEvents">
+                                          <Property name="AkEvent" value="INVALID_EVENT" />
+                                        </Property>
+                                      </Property>
+                                      <Property name="AutoOpen" value="false" />
+                                      <Property name="UsePulseEncounterObjectAsAttachment" value="false" />
+                                      <Property name="MinTimeInSpaceBeforeCall" value="0.0" />
+                                      <Property name="FormatDialogIDWithSeasonData" value="" />
+                                      <Property name="DebugText" value="" />
+                                    </Property>
+                                  </Property>
+                                </Property>
+                              </Property>
+                            </Property>
+                          </Property>
+                        </Property>
+                        <Property name="Stages" value="GcGenericMissionStage">
+                          <Property name="Versions" />
+                          <Property name="Stage" value="GcMissionSequenceWaitForConditions">
+                            <Property name="GcMissionSequenceWaitForConditions">
+                              <Property name="Message" value="" />
+                              <Property name="ConditionTest" value="GcMissionConditionTest">
+                                <Property name="ConditionTest" value="AnyTrue" />
+                              </Property>
+                              <Property name="Conditions">
+                                <Property name="Conditions" value="GcMissionConditionShipEngineStatus">
+                                  <Property name="GcMissionConditionShipEngineStatus">
+                                    <Property name="EngineStatus" value="Pulsing" />
+                                  </Property>
+                                </Property>
+                                <Property name="Conditions" value="GcMissionConditionMissionMessage">
+                                  <Property name="GcMissionConditionMissionMessage">
+                                    <Property name="Message" value="M_CHEFWS_DONE" />
+                                    <Property name="MessageToFormatSeasonalIDInto" value="" />
+                                  </Property>
+                                </Property>
+                              </Property>
+                              <Property name="AllowedToFormatObjectives" value="false" />
+                              <Property name="ForceAllowMissionRestart" value="false" />
+                              <Property name="ForceAllowMissionRestartEvent" value="" />
+                              <Property name="DebugText" value="" />
+                              <Property name="StatusMessageMissionMarkup" value="GcStatusMessageMissionMarkup">
+                                <Property name="MissionMarkup" value="KillFiend" />
+                              </Property>
+                            </Property>
+                          </Property>
+                        </Property>
+                        <Property name="Stages" value="GcGenericMissionStage">
+                          <Property name="Versions" />
+                          <Property name="Stage" value="GcMissionSequenceWait">
+                            <Property name="GcMissionSequenceWait">
+                              <Property name="Time" value="2.0" />
+                              <Property name="DebugText" value="" />
+                              <Property name="SuppressMessages" value="false" />
+                              <Property name="MultiplyTimeBySeasonValue" value="false" />
+                            </Property>
+                          </Property>
+                        </Property>
+                      </Property>
+                    </Property>
+                  </Property>
+                </Property>
+              </Property>
+            </Property>
+          </Property>
+        </Property>
+      </Property>
+      <Property name="ForcesBuildMenuHint" value="false" />
+      <Property name="IsProceduralAllowed" value="false" />
+      <Property name="IsRecurring" value="false" />
+      <Property name="IsLegacy" value="false" />
+      <Property name="BlocksPinning" value="false" />
+      <Property name="CanRenounce" value="false" />
+      <Property name="UseCommunityMissionForLog" value="" />
+      <Property name="TakeCommunityMissionIDFromSeasonData" value="false" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="UseSeasonTitleOverride" value="false" />
+      <Property name="RequiresSettlement" value="false" />
+      <Property name="SettlementAbandonOSD" value="" />
+    </Property>
+    <Property name="Missions" value="GcGenericMissionSequence" _id="ALCH_CHEF_SONG_">
+      <Property name="MissionID" value="ALCH_CHEF_SONG_" />
+      <Property name="MissionClass" value="Guide" />
+      <Property name="MissionIsCritical" value="false" />
+      <Property name="MissionObjective" value="" />
+      <Property name="MissionTitles" value="GcNumberedTextList">
+        <Property name="Format" value="" />
+        <Property name="Count" value="1" />
+      </Property>
+      <Property name="MissionSubtitles" value="GcNumberedTextList">
+        <Property name="Format" value="" />
+        <Property name="Count" value="1" />
+      </Property>
+      <Property name="MissionDescriptions" value="GcNumberedTextList">
+        <Property name="Format" value="" />
+        <Property name="Count" value="1" />
+      </Property>
+      <Property name="SeasonalLogTextOverrides" value="GcSeasonalLogOverrides">
+        <Property name="ApplicableSeasonNumbers" />
+        <Property name="MissionTitle" value="" />
+        <Property name="MissionSubtitle" value="" />
+        <Property name="MissionDescription" value="" />
+      </Property>
+      <Property name="MissionDescSwitchOverride" value="" />
+      <Property name="MissionProcDescriptionHeader" value="GcNumberedTextList">
+        <Property name="Format" value="" />
+        <Property name="Count" value="1" />
+      </Property>
+      <Property name="MissionProcDescriptionA" value="GcNumberedTextList">
+        <Property name="Format" value="" />
+        <Property name="Count" value="1" />
+      </Property>
+      <Property name="MissionProcDescriptionB" value="GcNumberedTextList">
+        <Property name="Format" value="" />
+        <Property name="Count" value="1" />
+      </Property>
+      <Property name="MissionProcDescriptionC" value="GcNumberedTextList">
+        <Property name="Format" value="" />
+        <Property name="Count" value="1" />
+      </Property>
+      <Property name="UseScanEventDetailsInLogInfo" value="false" />
+      <Property name="UseFirstPurpleSystemDetailsInLogInfo" value="false" />
+      <Property name="MissionIcon" value="TkTextureResource">
+        <Property name="Filename" value="" />
+        <Property name="ResHandle" value="GcResource">
+          <Property name="ResourceID" value="0" />
+        </Property>
+      </Property>
+      <Property name="MissionIconSelected" value="TkTextureResource">
+        <Property name="Filename" value="" />
+        <Property name="ResHandle" value="GcResource">
+          <Property name="ResourceID" value="0" />
+        </Property>
+      </Property>
+      <Property name="MissionIconNotSelected" value="TkTextureResource">
+        <Property name="Filename" value="" />
+        <Property name="ResHandle" value="GcResource">
+          <Property name="ResourceID" value="0" />
+        </Property>
+      </Property>
+      <Property name="MissionPriority" value="0" />
+      <Property name="MissionCategory" value="GcMissionCategory">
+        <Property name="MissionCategory" value="Mission" />
+      </Property>
+      <Property name="MissionPageHint" value="GcMissionPageHint">
+        <Property name="MissionPageHint" value="None" />
+      </Property>
+      <Property name="MissionPageLocID" value="" />
+      <Property name="MissionBuildMenuHint" value="" />
+      <Property name="MissionHasColourOverride" value="false" />
+      <Property name="MissionColourOverride" value="Colour">
+        <Property name="R" value="1.0" />
+        <Property name="G" value="1.0" />
+        <Property name="B" value="1.0" />
+        <Property name="A" value="1.0" />
+      </Property>
+      <Property name="BeginCheckFrequency" value="1" />
+      <Property name="WikiMissionBlockedBySeasons" />
+      <Property name="DefaultItems" value="GcDefaultMissionItemsTable">
+        <Property name="PrimarySubstances" />
+        <Property name="SecondarySubstances" />
+        <Property name="PrimaryProducts" />
+        <Property name="SecondaryProducts" />
+        <Property name="AmountMin" value="0" />
+        <Property name="AmountMax" value="0" />
+        <Property name="AmountShouldBeRoundNumber" value="false" />
+      </Property>
+      <Property name="PrefixTitle" value="false" />
+      <Property name="NextMissionHint" value="" />
+      <Property name="MessageComplete" value="Never" />
+      <Property name="MessageStart" value="Never" />
+      <Property name="MissionBoardOptions" value="GcMissionBoardOptions">
+        <Property name="Type" value="GcMissionType">
+          <Property name="MissionType" value="SpaceCombat" />
+        </Property>
+        <Property name="Difficulty" value="GcMissionDifficulty">
+          <Property name="MissionDifficulty" value="Normal" />
+        </Property>
+        <Property name="MinRank" value="0" />
+        <Property name="CloseMissionGiver" value="false" />
+        <Property name="IsGuildShopMission" value="false" />
+        <Property name="IsPlanetProcMission" value="false" />
+        <Property name="IsMultiplayerEventMission" value="false" />
+        <Property name="RewardPenaltyOnAbandon" value="" />
+        <Property name="Faction" />
+        <Property name="Weighting" value="0" />
+        <Property name="IgnoreCalculatedObjective" value="false" />
+        <Property name="MultiplayerMissionInitialWarpScanEvent" value="" />
+        <Property name="LocalMissionLocationScanEvent" value="" />
+        <Property name="DefaultItemInitialWarpScanEvents" />
+        <Property name="DefaultItemTypeForInitialWarp" value="None" />
+        <Property name="BasePartBlueprints" />
+        <Property name="MandatorySalvageEquipment" />
+        <Property name="RequireUncompletedPOI" value="false" />
+        <Property name="RequireUncompletedPOIOfType" value="GcSpacePoiType">
+          <Property name="SpacePoiType" value="AsteroidBelt" />
+        </Property>
+      </Property>
+      <Property name="AutoStart" value="AllModes" />
+      <Property name="RestartOnCompletion" value="true" />
+      <Property name="CancelSetsComplete" value="false" />
+      <Property name="Dialog" value="GcAlienPuzzleTable">
+        <Property name="Table" />
+      </Property>
+      <Property name="ScanEvents" />
+      <Property name="Rewards">
+        <Property name="Rewards" value="GcGenericRewardTableEntry">
+          <Property name="Id" value="R_CHEFSR_SWAP" />
+          <Property name="List" value="GcRewardTableItemList">
+            <Property name="RewardChoice" value="GiveAllSilent" />
+            <Property name="OverrideZeroSeed" value="false" />
+            <Property name="UseInventoryChoiceOverride" value="false" />
+            <Property name="IncrementStat" value="" />
+            <Property name="List">
+              <Property name="List" value="GcRewardTableItem">
+                <Property name="PercentageChance" value="100.0" />
+                <Property name="LabelID" value="" />
+                <Property name="Reward" value="GcRewardExchangeProduct">
+                  <Property name="GcRewardExchangeProduct">
+                    <Property name="IDToGive" value="P_CHEF_SONG" />
+                    <Property name="IDToTake" value="P_CHEF_SONG_X" />
+                    <Property name="AmountToGiveMin" value="1" />
+                    <Property name="AmountToGiveMax" value="1" />
+                    <Property name="AmountToTakeMax" value="1" />
+                    <Property name="HideNewProduct" value="true" />
+                    <Property name="ForceSpecialMessage" value="false" />
+                  </Property>
+                </Property>
+              </Property>
+            </Property>
+          </Property>
+        </Property>
+      </Property>
+      <Property name="Costs" />
+      <Property name="TradingDataOverride" value="GcTradeData">
+        <Property name="AlwaysPresentProducts" />
+        <Property name="AlwaysPresentSubstances" />
+        <Property name="OptionalProducts" />
+        <Property name="OptionalSubstances" />
+        <Property name="AlwaysConsideredBarterProducts" />
+        <Property name="BarterAcceptanceCurve" value="TkCurveType">
+          <Property name="Curve" value="Linear" />
+        </Property>
+        <Property name="BarterPriceMultiplier" value="0.0" />
+        <Property name="BarterItemPreferenceFloor" value="0.0" />
+        <Property name="BarterLoc" value="GcBarterLoc">
+          <Property name="Title" value="UI_BARTER_TITLE" />
+          <Property name="AcceptHeader" value="UI_BARTER_ACCEPT_HEADER" />
+          <Property name="NPCOffer" value="UI_BARTER_NPC_OFFER" />
+          <Property name="PlayerOffer" value="UI_BARTER_PLAYER_OFFER" />
+          <Property name="AcceptEmpty" value="UI_BARTER_ACCEPT_EMPTY" />
+          <Property name="AcceptBad" value="UI_BARTER_ACCEPT_BAD_ALT" />
+          <Property name="AcceptPoor" value="UI_BARTER_ACCEPT_POOR" />
+          <Property name="AcceptFair" value="UI_BARTER_ACCEPT_FAIR" />
+          <Property name="AcceptGood" value="UI_BARTER_ACCEPT_GOOD" />
+          <Property name="AcceptGreat" value="UI_BARTER_ACCEPT_GREAT" />
+          <Property name="BuyButton" value="UI_BARTER_BUTTON" />
+          <Property name="PopupButton" value="UI_BARTER_POPUP_BUTTON" />
+          <Property name="PopupButtonSub" value="UI_BARTER_POPUP_BUTTON_SUB" />
+          <Property name="OfferAcceptedOSD" value="UI_BARTER_OFFER_ACCEPT_OSD" />
+          <Property name="OfferDeclinedOSD" value="UI_BARTER_OFFER_DECLINED_OSD" />
+          <Property name="TransferPopupTitle" value="TRANSFER" />
+          <Property name="TransferPopupDesc" value="TRANSFER_RECEIVE_DESC" />
+          <Property name="TransferPopupButton" value="TRANSFER" />
+          <Property name="TransferPopupButtonSub" value="TRANSFER_DESCSH" />
+        </Property>
+        <Property name="SellButtonSub" value="TRADE_SELL_TO" />
+        <Property name="MinItemsForSale" value="5" />
+        <Property name="MaxItemsForSale" value="15" />
+        <Property name="PercentageOfItemsAreProducts" value="0.3" />
+        <Property name="BuyPriceIncreaseRedThreshold" value="20.0" />
+        <Property name="BuyPriceDecreaseGreenThreshold" value="-10.0" />
+        <Property name="SellPriceIncreaseGreenThreshold" value="10.0" />
+        <Property name="SellPriceDecreaseRedThreshold" value="-20.0" />
+        <Property name="ShowSeasonRewards" value="false" />
+        <Property name="UseBarterForBuy" value="false" />
+        <Property name="MissionMessageToSendOnSuccess" value="" />
+        <Property name="MinAmountOfProductAvailable">
+          <Property name="Poor" value="10" />
+          <Property name="Average" value="10" />
+          <Property name="Wealthy" value="10" />
+          <Property name="Pirate" value="10" />
+        </Property>
+        <Property name="MaxAmountOfProductAvailable">
+          <Property name="Poor" value="100" />
+          <Property name="Average" value="100" />
+          <Property name="Wealthy" value="100" />
+          <Property name="Pirate" value="100" />
+        </Property>
+        <Property name="MinAmountOfSubstanceAvailable">
+          <Property name="Poor" value="100" />
+          <Property name="Average" value="100" />
+          <Property name="Wealthy" value="100" />
+          <Property name="Pirate" value="100" />
+        </Property>
+        <Property name="MaxAmountOfSubstanceAvailable">
+          <Property name="Poor" value="1000" />
+          <Property name="Average" value="1000" />
+          <Property name="Wealthy" value="1000" />
+          <Property name="Pirate" value="1000" />
+        </Property>
+        <Property name="MinExtraSystemProducts">
+          <Property name="Poor" value="2" />
+          <Property name="Average" value="2" />
+          <Property name="Wealthy" value="2" />
+          <Property name="Pirate" value="2" />
+        </Property>
+        <Property name="MaxExtraSystemProducts">
+          <Property name="Poor" value="4" />
+          <Property name="Average" value="4" />
+          <Property name="Wealthy" value="4" />
+          <Property name="Pirate" value="4" />
+        </Property>
+        <Property name="TradeProductsPriceImprovements">
+          <Property name="Poor" value="0.0" />
+          <Property name="Average" value="0.0" />
+          <Property name="Wealthy" value="0.0" />
+          <Property name="Pirate" value="0.0" />
+        </Property>
+      </Property>
+      <Property name="StartConditionTest" value="GcMissionConditionTest">
+        <Property name="ConditionTest" value="AnyFalse" />
+      </Property>
+      <Property name="CancelConditionTest" value="GcMissionConditionTest">
+        <Property name="ConditionTest" value="AnyFalse" />
+      </Property>
+      <Property name="StartIsCancel" value="true" />
+      <Property name="StartingConditions">
+        <Property name="StartingConditions" value="GcMissionConditionGroup">
+          <Property name="GcMissionConditionGroup">
+            <Property name="OnlyUsedForTextFormatting" value="false" />
+            <Property name="ValueToReturnForTextFormatting" value="false" />
+            <Property name="ConditionTest" value="GcMissionConditionTest">
+              <Property name="ConditionTest" value="AllFalse" />
+            </Property>
+            <Property name="Conditions">
+              <Property name="Conditions" value="GcMissionConditionHasProduct">
+                <Property name="GcMissionConditionHasProduct">
+                  <Property name="Default" value="GcDefaultMissionProductEnum">
+                    <Property name="DefaultProductType" value="None" />
+                  </Property>
+                  <Property name="Product" value="P_CHEF_SONG_X" />
+                  <Property name="Amount" value="1" />
+                  <Property name="UseDefaultAmount" value="false" />
+                  <Property name="SyncWithMissionFireteam" value="false" />
+                  <Property name="MustBeImmediatelyAccessible" value="false" />
+                  <Property name="ForceSearchFreighterAndChests" value="false" />
+                  <Property name="SearchEveryShip" value="false" />
+                  <Property name="SearchGrave" value="false" />
+                  <Property name="SearchCookingIngredients" value="false" />
+                  <Property name="TakeAmountFromSeasonData" value="false" />
+                  <Property name="TakeIdFromSeasonData" value="false" />
+                  <Property name="DependentOnSeasonMilestone" value="false" />
+                  <Property name="UseAmountToAffordRecipe" value="" />
+                  <Property name="TakeAffordRecipeFromSeasonData" value="false" />
+                  <Property name="UseAffordRecipeForTextFormatting" value="false" />
+                  <Property name="Purpose" value="GcItemNeedPurpose">
+                    <Property name="ItemPurpose" value="None" />
+                  </Property>
+                  <Property name="AllowedToSetInventoryHint" value="false" />
+                  <Property name="ForceInventoryHintAtAllTimes" value="false" />
+                  <Property name="UseProductIconAsMissionIcon" value="false" />
+                  <Property name="DoNotFormatText" value="false" />
+                  <Property name="UseProductCategory" value="false" />
+                  <Property name="ProductCategory" value="GcProductCategory">
+                    <Property name="ProductCategory" value="Component" />
+                  </Property>
+                  <Property name="TeachIfNotKnown" value="false" />
+                </Property>
+              </Property>
+            </Property>
+          </Property>
+        </Property>
+        <Property name="StartingConditions" value="GcMissionConditionGroup">
+          <Property name="GcMissionConditionGroup">
+            <Property name="OnlyUsedForTextFormatting" value="false" />
+            <Property name="ValueToReturnForTextFormatting" value="false" />
+            <Property name="ConditionTest" value="GcMissionConditionTest">
+              <Property name="ConditionTest" value="AnyTrue" />
+            </Property>
+            <Property name="Conditions">
+              <Property name="Conditions" value="GcMissionConditionIsMissionInProgress">
+                <Property name="GcMissionConditionIsMissionInProgress">
+                  <Property name="MissionID" value="ALCH_CHEF_WHALE" />
+                  <Property name="MustBeSelectedMission" value="false" />
+                </Property>
+              </Property>
+            </Property>
+          </Property>
+        </Property>
+      </Property>
+      <Property name="CancelingConditions" />
+      <Property name="FinalStageVersions" />
+      <Property name="Stages">
+        <Property name="Stages" value="GcGenericMissionStage">
+          <Property name="Versions" />
+          <Property name="Stage" value="GcMissionSequenceWait">
+            <Property name="GcMissionSequenceWait">
+              <Property name="Time" value="2.0" />
+              <Property name="DebugText" value="" />
+              <Property name="SuppressMessages" value="false" />
+              <Property name="MultiplyTimeBySeasonValue" value="false" />
+            </Property>
+          </Property>
+        </Property>
+        <Property name="Stages" value="GcGenericMissionStage">
+          <Property name="Versions" />
+          <Property name="Stage" value="GcMissionSequenceReward">
+            <Property name="GcMissionSequenceReward">
+              <Property name="Message" value="UI_REWARD_FAILED_MSG" />
+              <Property name="Reward" value="R_CHEFSR_SWAP" />
+              <Property name="DoMissionBoardOverride" value="false" />
+              <Property name="Silent" value="false" />
+              <Property name="RewardInventoryOverride" value="None" />
+              <Property name="DebugText" value="" />
+            </Property>
+          </Property>
+        </Property>
+      </Property>
+      <Property name="ForcesBuildMenuHint" value="false" />
+      <Property name="IsProceduralAllowed" value="false" />
+      <Property name="IsRecurring" value="false" />
+      <Property name="IsLegacy" value="false" />
+      <Property name="BlocksPinning" value="false" />
+      <Property name="CanRenounce" value="false" />
+      <Property name="UseCommunityMissionForLog" value="" />
+      <Property name="TakeCommunityMissionIDFromSeasonData" value="false" />
+      <Property name="TelemetryUpload" value="false" />
+      <Property name="UseSeasonTitleOverride" value="false" />
+      <Property name="RequiresSettlement" value="false" />
+      <Property name="SettlementAbandonOSD" value="" />
+    </Property>
+  </Property>
+</Data>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="GcExperienceSpawnTable">
+  <Property name="PulseEncounters">
+    <Property name="PulseEncounters" value="GcPulseEncounterInfo">
+      <Property name="Id" value="PE_CHEF_SONG" />
+      <Property name="MarkerLabel" value="UI_PULSE_ENCOUNTER_NAME_BIOFRIG" />
+      <Property name="ChatMessageName" value="UI_PULSE_ENCOUNTER_NAME_BIOFRIG" />
+      <Property name="MarkerIcon" value="TkTextureResource">
+        <Property name="Filename" value="TEXTURES/UI/HUD/ICONS/MISSIONS/MISSION.BIOFRIG.DDS" />
+        <Property name="ResHandle" value="GcResource">
+          <Property name="ResourceID" value="0" />
+        </Property>
+      </Property>
+      <Property name="MarkerAlwaysShows" value="false" />
+      <Property name="MarkerRequiresMissionComplete" value="" />
+      <Property name="MarkerRequiresMissionActive" value="" />
+      <Property name="MarkerRequiresMissionSelected" value="" />
+      <Property name="MarkerRequiresMissionNotComplete" value="" />
+      <Property name="MarkerRequiresMissionNotActive" value="" />
+      <Property name="MarkerRequiresMissionNotSelected" value="" />
+      <Property name="CustomNotify" value="UI_PULSE_ENCOUNTER_MSG_BIOFRIG" />
+      <Property name="CustomNotifyTitle" value="UI_PULSE_ENCOUNTER_TIT_BIOFRIG" />
+      <Property name="CustomNotifyOSD" value="UI_PULSE_ENCOUNTER_OSD_BIOFRIG" />
+      <Property name="HasColourOverride" value="false" />
+      <Property name="CustomNotifyColour" value="Colour">
+        <Property name="R" value="1.0" />
+        <Property name="G" value="1.0" />
+        <Property name="B" value="1.0" />
+        <Property name="A" value="1.0" />
+      </Property>
+      <Property name="UseMarkerIconInOSD" value="true" />
+      <Property name="SpawnConditions" value="GcPulseEncounterSpawnConditions">
+        <Property name="AllowedInCreative" value="true" />
+        <Property name="AllowedInEmptySystem" value="true" />
+        <Property name="AllowedDuringTutorial" value="false" />
+        <Property name="AllowedBeyondPortals" value="true" />
+        <Property name="AllowedWhileOnMPMission" value="false" />
+        <Property name="RequiresProduct" value="" />
+        <Property name="RequiresMissionComplete" value="" />
+        <Property name="RequiresMissionActive" value="" />
+        <Property name="RequiresMissionNotComplete" value="" />
+        <Property name="RequiresMissionNotActive" value="" />
+        <Property name="RequiresAlienShip" value="false" />
+        <Property name="RequiresCorvette" value="false" />
+        <Property name="RequiresNearbyCorruptWorld" value="false" />
+        <Property name="StandardEncounter" value="false" />
+        <Property name="MissionEncounter" value="false" />
+        <Property name="BlockDuringSeasons" />
+      </Property>
+      <Property name="SpawnChance" value="0.0" />
+      <Property name="SpawnDistance" value="6000.0" />
+      <Property name="AudioEvent" value="GcAudioWwiseEvents">
+        <Property name="AkEvent" value="FRIGATE_LIVING_REVEAL" />
+      </Property>
+      <Property name="Silent" value="false" />
+      <Property name="Encounter" value="GcPulseEncounterSpawnFrigateFlyby">
+        <Property name="GcPulseEncounterSpawnFrigateFlyby">
+          <Property name="FlybyType" value="GcFrigateFlybyType">
+            <Property name="FrigateFlybyType" value="DeepSpaceCommon" />
+          </Property>
+          <Property name="RangeOverride" value="-1.0" />
+          <Property name="CommunicatorOSDLocId" value="UI_HAIL_BIOFRIG_OSD" />
+          <Property name="CommunicatorMessage" value="GcPlayerCommunicatorMessage">
+            <Property name="Dialog" value="D_CHEF_SONG" />
+            <Property name="ShowHologram" value="false" />
+            <Property name="CommunicatorType" value="Generic" />
+            <Property name="RaceOverride" value="GcAlienRace">
+              <Property name="AlienRace" value="None" />
+            </Property>
+            <Property name="ShipHUDOverride" value="UI_HAIL_BIOFRIG_HUD" />
+            <Property name="HailAudioOverride" value="GcAudioWwiseEvents">
+              <Property name="AkEvent" value="INVALID_EVENT" />
+            </Property>
+          </Property>
+        </Property>
+      </Property>
+    </Property>
+  </Property>
+</Data>

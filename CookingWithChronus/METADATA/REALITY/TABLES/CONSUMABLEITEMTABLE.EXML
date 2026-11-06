@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="GcConsumableItemTable">
+  <Property name="Table">
+    <Property name="Table" value="GcConsumableItem">
+      <Property name="ID" value="P_CHEF_SONG" />
+      <Property name="RewardID" value="R_CHEF_SONG" />
+      <Property name="TutorialRewardID" value="" />
+      <Property name="ButtonLocID" value="UI_P_CHEF_SONG_USE" />
+      <Property name="ButtonSubLocID" value="UI_P_CHEF_SONG_USE_SUB" />
+      <Property name="CloseInventoryWhenUsed" value="true" />
+      <Property name="AudioEventOnOpen" value="GcAudioWwiseEvents">
+        <Property name="AkEvent" value="INVALID_EVENT" />
+      </Property>
+      <Property name="RewardFailedLocID" value="INTRCT_NOROOM_L" />
+      <Property name="DestroyItemWhenConsumed" value="false" />
+      <Property name="AddCommunityTierClassIcon" value="false" />
+      <Property name="SuppressResourceMessage" value="false" />
+      <Property name="CustomOSD" value="" />
+      <Property name="RequiresCanAffordCost" value="" />
+      <Property name="RequiresMissionActive" value="" />
+      <Property name="OverrideMissionMustBeSelected" value="false" />
+      <Property name="RewardOverrideTable" />
+    </Property>
+  </Property>
+</Data>

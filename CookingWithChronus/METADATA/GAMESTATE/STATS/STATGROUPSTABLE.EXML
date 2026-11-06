@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="GcStatGroupTable">
+  <Property name="GcStatGroupTable">
+    <Property name="GcStatGroupTable" value="GcStatGroupData" _index="1">
+      <Property name="GroupName" value="GLOBAL_STATS" />
+      <Property name="TrackedStats">
+        <Property name="TrackedStats" value="CHEF_LORE" />
+        <Property name="TrackedStats" value="CHEF_TUT" />
+        <Property name="TrackedStats" value="CHEF_POE" />
+        <Property name="TrackedStats" value="CHEF_DCM" />
+        <Property name="TrackedStats" value="CHEF_API_A" />
+        <Property name="TrackedStats" value="CHEF_API_H" />
+        <Property name="TrackedStats" value="CHEF_API_B" />
+        <Property name="TrackedStats" value="CHEF_API_F" />
+        <Property name="TrackedStats" value="CHEF_CDH" />
+        <Property name="TrackedStats" value="CHEF_IMC_B" />
+        <Property name="TrackedStats" value="CHEF_IMC_C" />
+        <Property name="TrackedStats" value="CHEF_IMC_S" />
+        <Property name="TrackedStats" value="CHEF_IMM_B" />
+        <Property name="TrackedStats" value="CHEF_IMM_C" />
+        <Property name="TrackedStats" value="CHEF_IMM_S" />
+        <Property name="TrackedStats" value="CHEF_IMP_B" />
+        <Property name="TrackedStats" value="CHEF_IMP_C" />
+        <Property name="TrackedStats" value="CHEF_IMP_S" />
+        <Property name="TrackedStats" value="CHEF_ECO_B" />
+        <Property name="TrackedStats" value="CHEF_ECO_S" />
+        <Property name="TrackedStats" value="CHEF_WS_TUT" />
+      </Property>
+    </Property>
+  </Property>
+</Data>
